@@ -13,7 +13,7 @@ const Home = () => {
       <ParticleBackground/>
       <div className="top-10 h-full flex justify-center items-center flex-col ">
         <div className="h-3/4 w-full">
-          <Spline scene="https://prod.spline.design/FYpWJ8sCnd-Ksba7/scene.splinecode"  />
+          <Spline scene="https://prod.spline.design/nah8ZYm1kfWoaNPW/scene.splinecode"  />
         </div>
         <div>
         <Countdown  />
