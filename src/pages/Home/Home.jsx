@@ -19,9 +19,9 @@ const Home = () => {
       <ParticleBackground/>
       <div className="top-10 h-full flex justify-center items-center flex-col ">
         <div className="h-3/4 w-full">
-          <Spline scene="https://prod.spline.design/vakXcAJXStGdHotW/scene.splinecode"  />
+          <Spline scene="https://prod.spline.design/FYpWJ8sCnd-Ksba7/scene.splinecode"  />
         </div>
-        <div style={{ marginTop: "-160px" }}>
+        <div >
         <Countdown  />
         </div>
       </div>
