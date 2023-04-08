@@ -8,11 +8,11 @@ import ParticleBackground from "../../components/shared/ParticleBackground";
 const Home = () => {
   return (
     <div
-      className="h-screen w-full m-0"
+      className="h-screen lg:w-full m-0"
     >
       <ParticleBackground/>
       <div className="top-10 h-full flex justify-center items-center flex-col ">
-        <div className="h-3/4 w-full">
+        <div className="h-3/4 lg:w-full">
           <Spline scene="https://prod.spline.design/nah8ZYm1kfWoaNPW/scene.splinecode"  />
         </div>
         <div>
