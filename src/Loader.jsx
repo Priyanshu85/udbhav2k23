@@ -1,6 +1,6 @@
 import React from 'react'
-// import logo from '/logo.png'
-import loadImage from '../public/loadback.jpg'
+import logo from './assets/loadimage.png'
+import loadImage from './assets/loadback.jpg'
 
 function Loader() {
   return (
@@ -18,7 +18,7 @@ function Loader() {
     >
          
          <div className='w-[50vh] h-fit'>
-           <img src = "../public/loadimage.png" alt= 'loading .'/>
+           <img src = {logo} alt= 'loading .'/>
          </div>
     </div>
   )
