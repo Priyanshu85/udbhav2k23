@@ -1,29 +1,30 @@
-import React from 'react';
-import Spline from '@splinetool/react-spline';
-import backgroundImage from '../../../public/background.jpg';
-import Countdown from '../../components/shared/Countdown';
-import './Home.css'
+import React from "react";
+import Spline from "@splinetool/react-spline";
+import backgroundImage from "/background.jpg";
+import "./Home.css";
+import Countdown from "../../components/shared/Countdown";
+import ParticleBackground from "../../components/shared/ParticleBackground";
 
 const Home = () => {
-  
   return (
-    <div className='h-[180vh] m-auto'
-     
-       style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center center',
-        backgroundAttachment: 'fixed',
-
-       }}      
+    <div
+      className="h-screen w-full m-0"
+      // style={{
+      //   backgroundImage: `url(https://wallpapercave.com/wp/wp8017879.jpg)`,
+      //   backgroundSize: "cover",
+      //   backgroundRepeat: "no-repeat",
+      //   backgroundPosition: "center center",
+      // }}
     >
-       <div className="top-10 h-screen pt-[6rem]">  
-          <div className="h-screen w-full pl-3" >    {/*  style={{ top: coordinates.y, left: coordinates.x }} */}
-             <Spline scene="https://prod.spline.design/Bby0JwQNQzFYXggO/scene.splinecode" />
-          </div>
-          <Countdown />
-       </div>
+      <ParticleBackground/>
+      <div className="top-10 h-full flex justify-center items-center flex-col ">
+        <div className="h-3/4 w-full">
+          <Spline scene="https://prod.spline.design/FYpWJ8sCnd-Ksba7/scene.splinecode"  />
+        </div>
+        <div >
+        <Countdown  />
+        </div>
+      </div>
     </div>
   );
 };

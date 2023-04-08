@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '/logo.png'
 import loadImage from '../public/loadback.jpg'
 
 function Loader() {

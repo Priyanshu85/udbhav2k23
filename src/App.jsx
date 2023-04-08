@@ -3,6 +3,7 @@ import './App.css'
 import Loader from './Loader';
 // Routes
 import Routes from "./routes/Routes";
+import ParticleBackground from './components/shared/ParticleBackground';
 
 function App() {
  const [loading , setLoading] = useState(false);
@@ -14,15 +15,18 @@ function App() {
      } , 2500)
  } ,[])
 
+ 
+
 
   return (
     <div className="">
       {
         loading ?
           
-         <Loader />  : 
-
+         <Loader />  : <>
+          
          <Routes/>
+         </>
       }
     </div>
   )
