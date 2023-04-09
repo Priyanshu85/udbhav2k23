@@ -115,18 +115,15 @@ button.menu_btn {
     border-radius: 50%;
     background: transparent;
     z-index: 1000;
-    color: #f9f9f9;
+    
 }
 
 button.menu_btn svg {
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
 }
 
-button.menu_btn svg,
-button.menu_btn path {
-    fill: #eeeeee;
-}
+
 
 /* Logo */
 .nav_menu li a.logo {
