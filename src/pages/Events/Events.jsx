@@ -13,7 +13,7 @@ const Events = () => {
   const eventsData = selectedDay === 0 ? carouselData1.filter(i => i.day === 0) : carouselData1.filter(i => i.day !== 0);
 
   return (
-    <div className='bg-black' style={{ backgroundImage: `url(${bgPattern})` }}>
+    <div className='bg-black' style={{ backgroundImage: `url(${bgPattern})`, backgroundColor: 'rgba(0, 0, 0, 0.9)' }}>
       <HeroCarousel />
       <div className='py-20 container mx-auto px-5'>
 
