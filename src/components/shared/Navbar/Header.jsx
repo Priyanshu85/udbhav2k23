@@ -95,7 +95,7 @@ const Header = () => {
                         <LazyLoadImage src={logo} alt='logo' />
                     </MenuItem>
                     <MenuItem onClick={() => toggleOpen()} variant='navLink' className='nav_link' data-hover-text="Home" to='/'>Home</MenuItem>
-                    <MenuItem onClick={() => toggleOpen()} variant='navLink' className='nav_link' data-hover-text="Events" to='/'>Events</MenuItem>
+                    <MenuItem onClick={() => toggleOpen()} variant='navLink' className='nav_link' data-hover-text="Events" to='/events'>Events</MenuItem>
                     <MenuItem onClick={() => toggleOpen()} variant='navLink' className='nav_link' data-hover-text="About Us" to='/'>About Us</MenuItem>
                     <MenuItem onClick={() => toggleOpen()} variant='navLink' className='nav_link' data-hover-text="Team" to='/'>Team</MenuItem>
                 </motion.ul>
