@@ -1,0 +1,71 @@
+.team-main{
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+.HERO-img{
+    width: 40vw;
+}
+.card-grid{
+    padding: 0% 18%;
+}
+.card-grids{
+    padding: 0% 20%;
+}
+.card{
+    transition: all .2s ease-in;
+}
+.card:hover{
+  transform: translateY(-1rem);
+  box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+}
+.overlay{
+    margin-top: -20%;
+    margin-left: 10%;
+}
+.cardover{
+    width: 15vw;
+    background-color: #ffa6ecc2;
+    transition: all .2s ease-in;
+
+}
+.cardover:hover{
+    transform: translateY(-1rem);
+    box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+  }
+.card-img{
+    /* margin-left: -20%; */
+    z-index: 0;
+    width: 26vw;
+    height: 26vh;
+}
+@media only screen and (max-width: 640px) {
+    .HERO-img{
+        width: 100vw;
+    }.card-grids{
+        padding: 0% 5%;
+    }.cardover{
+        width: 50vw;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .HERO-img{
+        width: 100vw;
+    }.card-grids{
+        padding: 0% 10%;
+    }
+    .cardover{
+        width: 30vw;
+    }
+}
+/* @media only screen and (max-width: 1280px) {} */
+@media only screen and (max-width: 1024px) {
+    .HERO-img{
+        width: 100vw;
+    }.card-grids{
+        padding: 0% 10%;
+    }
+    .cardover{
+        width: 20vw;
+    }
+}
