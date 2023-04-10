@@ -27,8 +27,15 @@ const SingleEvent = () => {
     }, []);
 
     return (
-        <div className='bg-black pb-20'>
+        <div className='bg-black pt-10 pb-20'>
             <div className='max-lg:px-5 lg:w-[1000px] mx-auto'>
+                <div className='mb-5' onClick={()=>window.history.back()}>
+            <a href="#_" class="relative inline-flex items-center justify-center px-10 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">
+<span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-yellow-500 rounded-full group-hover:w-56 group-hover:h-56"></span>
+<span class="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
+<span class="relative">Go Back</span>
+</a>
+</div>
                 <div className='border-2 border-white rounded-md'>
                     <div className='overflow-hidden'>
                         <img src={poster} alt='' className='w-full h-auto' />
@@ -69,7 +76,13 @@ const SingleEvent = () => {
                             </div>
                             <div className='md:w-4/12'>
                                 <div className='text-right rel'>
-                                    <button onClick={linkHandler} className='bg-red-500 text-white text-2xl font-SquadaOne py-2 px-5 rounded-md w-fit'>Registration</button>
+                                <div className='mb-5' onClick={linkHandler}>
+            <a href="#_" class="relative inline-flex items-center justify-center px-10 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">
+<span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-green-500 rounded-full group-hover:w-56 group-hover:h-56"></span>
+<span class="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
+<span class="relative">Register</span>
+</a>
+</div>
                                     <p className='text-right mt-2 ml-auto flex flex-col w-fit items-center pr-10 text-sm text-white'>
                                         <span>Team Size</span>
                                         <span className='flex w-fit gap-x-2 items-center'>
