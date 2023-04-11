@@ -51,7 +51,7 @@ export const carouselData1 = [
         registrationLink: 'https://kitretsu.me',
         day: 0,
         winner: [
-            { name: 'Ajoy', id: 'Wi1223' },
+            { name: 'Shresth', id: 'Wi1223' },
             { name: 'Shantu', id: 'Wi1223' },
             { name: 'Promi', id: 'Wi1223' },
         ]
