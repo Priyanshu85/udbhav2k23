@@ -14,6 +14,12 @@ import event3 from '../assets/events/event-3.webp';
 import event4 from '../assets/events/event-4.webp';
 import eventBanner from '../assets/events/single-event-banner.png';
 
+import man1 from "../assets/Teams/man-1.png"
+import man2 from "../assets/Teams/man-2.png"
+import man3 from "../assets/Teams/man-3.png"
+import woman from "../assets/Teams/woman.png"
+
+
 
 export const carouselData1 = [
     {
@@ -227,7 +233,7 @@ export const TeamMember = [
     {
         'id': '1',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-1.png",
+        'image': man1,
         'link': 'whatsapp',
         'color': '#9A2D9C',
 
@@ -235,7 +241,7 @@ export const TeamMember = [
     {
         'id': '2',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-2.png",
+        'image': man2,
         'color': "#277A70",
 
         'link': 'whatsapp'
@@ -243,7 +249,7 @@ export const TeamMember = [
     {
         'id': '3',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-3.png",
+        'image': man3,
         'color': '#C77FB7',
 
         'link': 'whatsapp'
@@ -251,231 +257,231 @@ export const TeamMember = [
     {
         'id': '4',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/woman.png",
+        'image': woman,
         'color': '#9747FF',
 
         'link': 'whatsapp'
     },
     {
-        'id': '2',
+        'id': '5',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-2.png",
+        'image': man2,
         'color': "#277A70",
 
         'link': 'whatsapp'
     },
     {
-        'id': '3',
+        'id': '6',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-3.png",
+        'image': man3,
         'color': '#C77FB7',
 
         'link': 'whatsapp'
     },
     {
-        'id': '4',
+        'id': '7',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/woman.png",
+        'image': woman,
         'color': '#9747FF',
 
         'link': 'whatsapp'
     },
     {
-        'id': '1',
+        'id': '8',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-1.png",
+        'image': man1,
         'link': 'whatsapp',
         'color': '#9A2D9C',
 
     },
     {
-        'id': '3',
+        'id': '9',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-3.png",
+        'image': man3,
         'color': '#C77FB7',
 
         'link': 'whatsapp'
     },
     {
-        'id': '4',
+        'id': '10',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/woman.png",
+        'image': woman,
         'color': '#9747FF',
 
         'link': 'whatsapp'
     },
     {
-        'id': '1',
+        'id': '11',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-1.png",
+        'image': man1,
         'link': 'whatsapp',
         'color': '#9A2D9C',
 
     },
     {
-        'id': '2',
+        'id': '12',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-2.png",
+        'image': man2,
         'color': "#277A70",
 
         'link': 'whatsapp'
     },
     {
-        'id': '4',
+        'id': '13',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/woman.png",
+        'image': woman,
         'color': '#9747FF',
 
         'link': 'whatsapp'
     },
     {
-        'id': '1',
+        'id': '14',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-1.png",
+        'image': man1,
         'link': 'whatsapp',
         'color': '#9A2D9C',
 
     },
     {
-        'id': '2',
+        'id': '15',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-2.png",
+        'image': man2,
         'color': "#277A70",
 
         'link': 'whatsapp'
     },
     {
-        'id': '3',
+        'id': '16',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-3.png",
+        'image': man3,
         'color': '#C77FB7',
 
         'link': 'whatsapp'
     },
     {
-        'id': '1',
+        'id': '17',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-1.png",
+        'image': man1,
         'link': 'whatsapp',
         'color': '#9A2D9C',
 
     },
     {
-        'id': '2',
+        'id': '18',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-2.png",
+        'image': man2,
         'color': "#277A70",
 
         'link': 'whatsapp'
     },
     {
-        'id': '3',
+        'id': '19',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-3.png",
+        'image': man3,
         'color': '#C77FB7',
 
         'link': 'whatsapp'
     },
     {
-        'id': '4',
+        'id': '20',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/woman.png",
+        'image': woman,
         'color': '#9747FF',
 
         'link': 'whatsapp'
     },
     {
-        'id': '2',
+        'id': '21',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-2.png",
+        'image': man2,
         'color': "#277A70",
 
         'link': 'whatsapp'
     },
     {
-        'id': '3',
+        'id': '22',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-3.png",
+        'image': man3,
         'color': '#C77FB7',
 
         'link': 'whatsapp'
     },
     {
-        'id': '4',
+        'id': '23',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/woman.png",
+        'image': woman,
         'color': '#9747FF',
 
         'link': 'whatsapp'
     },
     {
-        'id': '1',
+        'id': '24',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-1.png",
+        'image': man1,
         'link': 'whatsapp',
         'color': '#9A2D9C',
 
     },
     {
-        'id': '3',
+        'id': '25',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-3.png",
+        'image': man3,
         'color': '#C77FB7',
 
         'link': 'whatsapp'
     },
     {
-        'id': '4',
+        'id': '26',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/woman.png",
+        'image': woman,
         'color': '#9747FF',
 
         'link': 'whatsapp'
     },
     {
-        'id': '1',
+        'id': '27',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-1.png",
+        'image': man1,
         'link': 'whatsapp',
         'color': '#9A2D9C',
 
     },
     {
-        'id': '2',
+        'id': '28',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-2.png",
+        'image': man2,
         'color': "#277A70",
 
         'link': 'whatsapp'
     },
     {
-        'id': '4',
+        'id': '29',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/woman.png",
+        'image': woman,
         'color': '#9747FF',
 
         'link': 'whatsapp'
     },
     {
-        'id': '1',
+        'id': '30',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-1.png",
+        'image': man1,
         'link': 'whatsapp',
         'color': '#9A2D9C',
 
     },
     {
-        'id': '2',
+        'id': '31',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-2.png",
+        'image': man2,
         'color': "#277A70",
 
         'link': 'whatsapp'
     },
     {
-        'id': '3',
+        'id': '32',
         'name': 'Lorem Ipsum',
-        'image': "/src/assets/Teams/man-3.png",
+        'image': man3,
         'color': '#C77FB7',
 
         'link': 'whatsapp'
