@@ -223,3 +223,261 @@ export const carouselData1 = [
         ]
     },
 ];
+export const TeamMember = [
+    {
+        'id': '1',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-1.png",
+        'link': 'whatsapp',
+        'color': '#9A2D9C',
+
+    },
+    {
+        'id': '2',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-2.png",
+        'color': "#277A70",
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '3',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-3.png",
+        'color': '#C77FB7',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '4',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/woman.png",
+        'color': '#9747FF',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '2',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-2.png",
+        'color': "#277A70",
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '3',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-3.png",
+        'color': '#C77FB7',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '4',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/woman.png",
+        'color': '#9747FF',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '1',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-1.png",
+        'link': 'whatsapp',
+        'color': '#9A2D9C',
+
+    },
+    {
+        'id': '3',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-3.png",
+        'color': '#C77FB7',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '4',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/woman.png",
+        'color': '#9747FF',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '1',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-1.png",
+        'link': 'whatsapp',
+        'color': '#9A2D9C',
+
+    },
+    {
+        'id': '2',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-2.png",
+        'color': "#277A70",
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '4',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/woman.png",
+        'color': '#9747FF',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '1',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-1.png",
+        'link': 'whatsapp',
+        'color': '#9A2D9C',
+
+    },
+    {
+        'id': '2',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-2.png",
+        'color': "#277A70",
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '3',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-3.png",
+        'color': '#C77FB7',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '1',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-1.png",
+        'link': 'whatsapp',
+        'color': '#9A2D9C',
+
+    },
+    {
+        'id': '2',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-2.png",
+        'color': "#277A70",
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '3',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-3.png",
+        'color': '#C77FB7',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '4',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/woman.png",
+        'color': '#9747FF',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '2',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-2.png",
+        'color': "#277A70",
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '3',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-3.png",
+        'color': '#C77FB7',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '4',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/woman.png",
+        'color': '#9747FF',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '1',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-1.png",
+        'link': 'whatsapp',
+        'color': '#9A2D9C',
+
+    },
+    {
+        'id': '3',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-3.png",
+        'color': '#C77FB7',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '4',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/woman.png",
+        'color': '#9747FF',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '1',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-1.png",
+        'link': 'whatsapp',
+        'color': '#9A2D9C',
+
+    },
+    {
+        'id': '2',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-2.png",
+        'color': "#277A70",
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '4',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/woman.png",
+        'color': '#9747FF',
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '1',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-1.png",
+        'link': 'whatsapp',
+        'color': '#9A2D9C',
+
+    },
+    {
+        'id': '2',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-2.png",
+        'color': "#277A70",
+
+        'link': 'whatsapp'
+    },
+    {
+        'id': '3',
+        'name': 'Lorem Ipsum',
+        'image': "/src/assets/Teams/man-3.png",
+        'color': '#C77FB7',
+
+        'link': 'whatsapp'
+    },
+]

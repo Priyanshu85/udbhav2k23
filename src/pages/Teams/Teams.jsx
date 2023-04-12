@@ -1,35 +1,29 @@
 import React from 'react'
-import { Cardover, Teamscards } from '../../components/shared/Teams/Teamscards'
+import { CardOverlay } from '../../components/shared/Teams/Teamscards'
 import './teams.css'
 import {AiOutlineDownCircle} from "react-icons/ai"
 import HEROsvg from "../../assets/Teams/HERO.svg"
-import ParticleTeam from '../../components/shared/Teams/ParticleTeam'
-import { datai, dataitems } from './dataitems'
+import { TeamMember } from '../../data/data'
+import bgPattern from "../../assets/events/pattern.webp"
 const Teams = () => {
-  const cards = dataitems.map(data => {
+  const cards = TeamMember.map(data => {
     return (
-      <Cardover
+      <CardOverlay
         {...data}
       />
     )
   })
-  const card = datai.map(data => {
-    return (
-      <Teamscards
-        {...data}
-      />
-    )
-  })
+
   function handlescroll(){
     document.getElementById('team').scrollIntoView({behavior: 'smooth',block:"start"});
 }
   return (
-    <div className='team-main lg:w-full m-0'>
+    <div className='bg-black'>
+<div className='team-main lg:w-full m-0'>
       {/* HERO */}
-      <ParticleTeam/>
-      <div className='h-screen'>
-      <div className='grid py-24 px-24 gap-24 lg:grid-cols-1 lg:justify-center xl:grid-cols-2'>
-        <div className='px-0 md:px-8 lg: px-12 xl:px-16 '>
+      <div className='page'>
+      <div className='grid p-14 md:gap-24 lg:grid-cols-1 lg:justify-center xl:grid-cols-2'>
+        <div className='px-0 md:px-8 lg:px-12 xl:px-16 '>
           <h1 className='text-orange-500 font-extralight sm: text-6xl md:text-7xl lg:text-7xl xl:text-9xl'>Our Team</h1>
           <h3 className='text-2xl font-light py-5'>Meet Entire Team</h3>
           <p className='pt-5 pb-32 xs:text-sm md:text-md '>Our team comprises passionate individuals who are dedicated to organizing a successful Udbhav 2023. From event management to creative design, they bring a diverse range of skills and expertise to the table. With a shared commitment to excellence and teamwork, they are driven to make the fest a memorable experience for everyone.</p>
@@ -47,7 +41,8 @@ const Teams = () => {
           </div>
         </div>
         <div>
-          <img src={HEROsvg} alt='Hero-svg'className='HERO-img z-10'/>
+        <img src={HEROsvg} alt='Hero-svg'className='HERO-img z-10'/>
+          {/* <img src={HERO} alt='Hero-svg'className='HERO-img z-10'/> */}
         </div>
       </div>
       <div className='grid grid-rows-1 pb-5 justify-center'>
@@ -60,16 +55,14 @@ const Teams = () => {
           <h2 className='text-4xl font-bold'>TEAM</h2>
           <h1 className='text-7xl text-amber-400 font-extrabold'>MEMBERS</h1>
         </div>
-        <div className='grid card-grid gap-y-8 gap-x-0 justify-center xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-0 py-12'>
+        <div className='grid card-grid gap-y-8 gap-x-0 justify-center xs:grid-cols-1 xs:justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-0 py-12'>
           {cards}
 
         </div>
-        {/* <div className='grid card-grids gap-5 justify-center xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-0 py-12'>
-          {card}
-
-        </div> */}
       </div>
     </div>
+    </div>
+    
   )
 }
 
