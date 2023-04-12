@@ -1,0 +1,103 @@
+.team-main{
+    /* background-color: transparent; */
+    color: #fff;
+    /* background-color: #0e0618;
+    opacity: 1;
+    background-image:  radial-gradient(#8e8e8e 2px, transparent 2px), radial-gradient(#8e8e8e 2px, #0e0618 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px; */
+    font-family: 'Raleway', Arial, sans-serif;
+    background-image: url(../../assets/Teams/pattern2.svg);
+    /* background-color: rgba(0, 0, 0, 1); */
+}
+/* .team-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+} */
+.page{
+    height: 100%;
+}
+.HERO-img{
+    width: 38vw;
+}
+.card-grid{
+    justify-self: center;
+    padding: 0% 18%;
+}
+.card-grids{
+    padding: 0% 20%;
+}
+.card{
+    transition: all .2s ease-in;
+}
+.card:hover{
+  transform: translateY(-1rem);
+  box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+}
+.overlay{
+    margin-top: -20%;
+    margin-left: 10%;
+}
+.cardover{
+    background-color: #ffa6ecc2;
+    transition: all .2s ease-in;
+
+}
+.cardover:hover{
+    transform: scale(1.1);
+    box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+  }
+.card-img{
+    /* margin-left: -20%; */
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 640px) {
+    .HERO-img{
+        width: 100vw;
+    }.card-grid{
+        padding: 0% 0%;
+    }
+
+}
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .HERO-img{
+        width: 100vw;
+    }.card-grids{
+        padding: 0% 10%;
+    }
+    .card-grid{
+        padding: 0% 15%;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    .HERO-img{
+        width: 100vw;
+    }.card-grids{
+        padding: 0% 20%;
+    }
+    .card-grid{
+        padding:0% 10%;
+        padding-left: 50%;
+    }
+
+}
+@media screen and (max-width: 1280px) {
+    .HERO-img{
+        width: 100vw;
+    }.card-grids{
+        padding: 0% 10%;
+    }
+    .card-grid{
+        padding: 0% 15%;
+    }
+
+}
