@@ -31,11 +31,11 @@ const Countdown = () => {
         const label = el[0];
         const value = el[1];
         return (
-          <div className="flex flex-col items-center mx-2" key={label}>
-            <div className="bg-gradient-to-br from-gray-800  to-black rounded-lg shadow-lg w-16 h-16 sm:w-20 sm:h-20 md:w-32 md:h-32 lg:w-40 lg:h-40 flex items-center justify-center relative">
-              <span className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-white">{value}</span>
+          <div className="flex flex-col items-center mx-2 mb-10 " key={label}>
+            <div className="bg-gradient-to-br from-gray-800  to-black rounded-lg shadow-lg w-16 h-16 sm:w-20 sm:h-20 md:w-32 md:h-32 lg:w-32 lg:h-32 flex items-center justify-center relative">
+              <p className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-white select-none">{value}</p>
             </div>
-            <span className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-medium mt-2">{label.toUpperCase()}</span>
+            <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-medium mt-2 select-none">{label.toUpperCase()}</p>
           </div>
         );
       })}
