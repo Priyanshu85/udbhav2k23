@@ -78,8 +78,10 @@ const Teams = () => {
             <h2 className="text-4xl font-bold">TEAM</h2>
             <h1 className="text-7xl text-amber-400 font-extrabold">MEMBERS</h1>
           </div>
-          <div className="grid card-grid gap-y-8 gap-x-0 justify-center xs:grid-cols-1 xs:justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-0 py-12">
+          <div className="w-full flex justify-center items-center">
+            <div className="grid card-grid gap-y-8 gap-x-16 justify-center xs:grid-cols-1 xs:justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-0 p-32">
             {cards}
+          </div>
           </div>
         </div>
       </div>
