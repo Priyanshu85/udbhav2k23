@@ -2,6 +2,8 @@ import React from "react"
 import {IoLogoWhatsapp} from 'react-icons/io'
 import "../../../pages/Teams/teams.css"
 import { Container } from "./style"
+import {LazyLoadImage} from "react-lazy-load-image-component"
+
 
 export function Cardover(props){
     const cardstyle={
@@ -11,9 +13,9 @@ export function Cardover(props){
         <div className='grid grid-cols-2 cardover rounded-2xl xs:w-56 sm:w-56 md:w-56 xl:w-60' style={cardstyle}>
             <div className='grid grid-cols-2 gap-12 z-10'>
                 <h1 className='text-4xl font-bold py-5 px-2'>{props.name}</h1>
-            <a href={props.link} className='px-2 '><div className='flex gap-2 align-text-top'><IoLogoWhatsapp/>Whatsapp</div></a>
+            <a href={props.link} target="_blank"><div className='flex gap-2 align-text-top'><IoLogoWhatsapp/>Whatsapp</div></a>
             </div>
-            <img src={props.image} className='card-img'/>
+            <LazyLoadImage src={props.image} alt="Image" />
         </div>
     )
 }

@@ -5,6 +5,7 @@ import { AiOutlineDownCircle } from "react-icons/ai";
 import HEROsvg from "../../assets/Teams/HERO.svg";
 import { TeamMember } from "../../data/data";
 import bgPattern from "../../assets/events/pattern.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const Teams = () => {
   const cards = TeamMember.map((data) => {
     return <CardOverlay {...data} key={data.id} />;
@@ -16,16 +17,15 @@ const Teams = () => {
       .scrollIntoView({ behavior: "smooth", block: "start" });
   }
   return (
-    <div className="bg-black">
-      <div className="team-main lg:w-full m-0">
-        {/* HERO */}
+    <div className="w-full bg-black">
+      <div className="team-main lg:w-full m-0 ">
         <div className="page">
           <div className="grid p-14 md:gap-24 lg:grid-cols-1 lg:justify-center xl:grid-cols-2">
             <div className="px-0">
               <h1 className="text-orange-500 font-extralight sm: text-6xl md:text-7xl lg:text-7xl xl:text-9xl">
                 Our Team
               </h1>
-              <h3 className="text-2xl font-light py-5">Meet Entire Team</h3>
+              <h3 className="text-2xl font-bold py-5 text-sky-500">Meet Entire Team</h3>
               <p className="pt-5 pb-32 xs:text-sm md:text-md ">
                 Our team comprises passionate individuals who are dedicated to
                 organizing a successful Udbhav 2023. From event management to
@@ -62,8 +62,7 @@ const Teams = () => {
               </div>
             </div>
             <div>
-              <img src={HEROsvg} alt="Hero-svg" className="HERO-img z-10" />
-              {/* <img src={HERO} alt='Hero-svg'className='HERO-img z-10'/> */}
+              <LazyLoadImage src={HEROsvg} alt="Hero-svg" className="HERO-img z-10" />
             </div>
           </div>
           <div className="grid grid-rows-1 pb-5 justify-center">
