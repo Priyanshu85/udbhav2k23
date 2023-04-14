@@ -14,10 +14,27 @@ import event3 from '../assets/events/event-3.webp';
 import event4 from '../assets/events/event-4.webp';
 import eventBanner from '../assets/events/single-event-banner.png';
 
-import man1 from "../assets/Teams/man-1.png"
-import man2 from "../assets/Teams/man-2.png"
-import man3 from "../assets/Teams/man-3.png"
-import woman from "../assets/Teams/woman.png"
+import aditi from "../assets/Teams/Team/aditi.jpg"
+import ayush from "../assets/Teams/Team/ayush.jpg"
+import chetan from "../assets/Teams/Team/chetan.jpg"
+import danish from "../assets/Teams/Team/danish.jpg"
+import dev from "../assets/Teams/Team/dev.jpg"
+import harsh from "../assets/Teams/Team/harsh.jpg"
+import harshita from "../assets/Teams/Team/harshita.jpg"
+import naman from "../assets/Teams/Team/naman.jpg"
+import prabhat from "../assets/Teams/Team/prabhat.jpg"
+import prateek from "../assets/Teams/Team/prateek.jpg"
+import rishabh from "../assets/Teams/Team/rishabh.png"
+import riya from "../assets/Teams/Team/riya.jpg"
+import shruti from "../assets/Teams/Team/shruti.jpg"
+import siddhant from "../assets/Teams/Team/siddhant.png"
+import siddharth from "../assets/Teams/Team/siddharth.jpg"
+import sneha from "../assets/Teams/Team/sneha.jpg"
+import srishti from "../assets/Teams/Team/srishti.jpg"
+import swastik from "../assets/Teams/Team/11.png"
+import swati from "../assets/Teams/Team/swati.jpg"
+import tarun from "../assets/Teams/Team/tarun.jpg"
+import tushar from "../assets/Teams/Team/tushar.jpg"
 
 
 
@@ -232,258 +249,170 @@ export const carouselData1 = [
 export const TeamMember = [
     {
         'id': '1',
-        'name': 'Lorem Ipsum',
-        'image': man1,
-        'link': 'whatsapp',
+        'name': 'Aditi Shankar',
+        'image': aditi,
+        'link': 'https://wa.me/+916200909769',
         'color': '#9A2D9C',
 
     },
     {
         'id': '2',
-        'name': 'Lorem Ipsum',
-        'image': man2,
+        'name': 'Ayush Kr Singh',
+        'image': ayush,
         'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+919455963915'
     },
     {
         'id': '3',
-        'name': 'Lorem Ipsum',
-        'image': man3,
-        'color': '#C77FB7',
+        'name': 'Chetan Mishra',
+        'image': chetan,
+        'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+919654360612'
     },
     {
         'id': '4',
-        'name': 'Lorem Ipsum',
-        'image': woman,
-        'color': '#9747FF',
+        'name': 'Danish Ahmad',
+        'image': danish,
+        'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+917895555848'
     },
     {
         'id': '5',
-        'name': 'Lorem Ipsum',
-        'image': man2,
+        'name': 'Dev Verma',
+        'image': dev,
         'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+918171970884'
     },
     {
         'id': '6',
-        'name': 'Lorem Ipsum',
-        'image': man3,
-        'color': '#C77FB7',
+        'name': 'Harsh Tiwari',
+        'image': harsh,
+        'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+917905258157'
     },
     {
         'id': '7',
-        'name': 'Lorem Ipsum',
-        'image': woman,
-        'color': '#9747FF',
+        'name': 'Harshita Rajoriya',
+        'image': harshita,
+        'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+919582735756'
     },
     {
         'id': '8',
-        'name': 'Lorem Ipsum',
-        'image': man1,
-        'link': 'whatsapp',
-        'color': '#9A2D9C',
+        'name': 'Naman Mehra',
+        'image': naman,
+        'color': "#277A70",
 
+        'link': 'https://wa.me/+91'
     },
     {
         'id': '9',
-        'name': 'Lorem Ipsum',
-        'image': man3,
-        'color': '#C77FB7',
+        'name': 'Prabhat Kr Tiwari',
+        'image': prabhat,
+        'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+918081413299'
     },
     {
         'id': '10',
-        'name': 'Lorem Ipsum',
-        'image': woman,
-        'color': '#9747FF',
+        'name': 'Prateek Rai',
+        'image': prateek,
+        'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+918707283119'
     },
     {
         'id': '11',
-        'name': 'Lorem Ipsum',
-        'image': man1,
-        'link': 'whatsapp',
-        'color': '#9A2D9C',
+        'name': 'Rishabh Jain',
+        'image': rishabh,
+        'color': "#277A70",
 
+        'link': 'https://wa.me/+919999601526'
     },
     {
         'id': '12',
-        'name': 'Lorem Ipsum',
-        'image': man2,
+        'name': 'Riya Sharma',
+        'image': riya,
         'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+918377015592'
     },
     {
         'id': '13',
-        'name': 'Lorem Ipsum',
-        'image': woman,
-        'color': '#9747FF',
+        'name': 'Shruti Jain',
+        'image': shruti,
+        'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+919811552127'
     },
     {
         'id': '14',
-        'name': 'Lorem Ipsum',
-        'image': man1,
-        'link': 'whatsapp',
-        'color': '#9A2D9C',
+        'name': 'Siddhant Dixit',
+        'image': siddhant,
+        'color': "#277A70",
 
+        'link': 'https://wa.me/+919838944491'
     },
     {
         'id': '15',
-        'name': 'Lorem Ipsum',
-        'image': man2,
+        'name': 'Siddharth Mishra',
+        'image': siddharth,
         'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+917379412633'
     },
     {
         'id': '16',
-        'name': 'Lorem Ipsum',
-        'image': man3,
-        'color': '#C77FB7',
+        'name': 'Sneha Saurabh',
+        'image': sneha,
+        'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+917267003800'
     },
     {
         'id': '17',
-        'name': 'Lorem Ipsum',
-        'image': man1,
-        'link': 'whatsapp',
-        'color': '#9A2D9C',
+        'name': 'Srishti Rai',
+        'image': srishti,
+        'color': "#277A70",
 
+        'link': 'https://wa.me/+916387459413'
     },
     {
         'id': '18',
-        'name': 'Lorem Ipsum',
-        'image': man2,
+        'name': 'Swastik Sharma',
+        'image': swastik,
         'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+918826018098'
     },
     {
         'id': '19',
-        'name': 'Lorem Ipsum',
-        'image': man3,
-        'color': '#C77FB7',
+        'name': 'Swati Singh',
+        'image': swati,
+        'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+918303751023'
     },
     {
         'id': '20',
-        'name': 'Lorem Ipsum',
-        'image': woman,
-        'color': '#9747FF',
+        'name': 'Tarun Bansal',
+        'image': tarun,
+        'color': "#277A70",
 
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+917900881101'
     },
     {
         'id': '21',
-        'name': 'Lorem Ipsum',
-        'image': man2,
+        'name': 'Tushar Saxena',
+        'image': tushar,
         'color': "#277A70",
 
-        'link': 'whatsapp'
-    },
-    {
-        'id': '22',
-        'name': 'Lorem Ipsum',
-        'image': man3,
-        'color': '#C77FB7',
-
-        'link': 'whatsapp'
-    },
-    {
-        'id': '23',
-        'name': 'Lorem Ipsum',
-        'image': woman,
-        'color': '#9747FF',
-
-        'link': 'whatsapp'
-    },
-    {
-        'id': '24',
-        'name': 'Lorem Ipsum',
-        'image': man1,
-        'link': 'whatsapp',
-        'color': '#9A2D9C',
-
-    },
-    {
-        'id': '25',
-        'name': 'Lorem Ipsum',
-        'image': man3,
-        'color': '#C77FB7',
-
-        'link': 'whatsapp'
-    },
-    {
-        'id': '26',
-        'name': 'Lorem Ipsum',
-        'image': woman,
-        'color': '#9747FF',
-
-        'link': 'whatsapp'
-    },
-    {
-        'id': '27',
-        'name': 'Lorem Ipsum',
-        'image': man1,
-        'link': 'whatsapp',
-        'color': '#9A2D9C',
-
-    },
-    {
-        'id': '28',
-        'name': 'Lorem Ipsum',
-        'image': man2,
-        'color': "#277A70",
-
-        'link': 'whatsapp'
-    },
-    {
-        'id': '29',
-        'name': 'Lorem Ipsum',
-        'image': woman,
-        'color': '#9747FF',
-
-        'link': 'whatsapp'
-    },
-    {
-        'id': '30',
-        'name': 'Lorem Ipsum',
-        'image': man1,
-        'link': 'whatsapp',
-        'color': '#9A2D9C',
-
-    },
-    {
-        'id': '31',
-        'name': 'Lorem Ipsum',
-        'image': man2,
-        'color': "#277A70",
-
-        'link': 'whatsapp'
-    },
-    {
-        'id': '32',
-        'name': 'Lorem Ipsum',
-        'image': man3,
-        'color': '#C77FB7',
-
-        'link': 'whatsapp'
+        'link': 'https://wa.me/+919958794205'
     },
 ]

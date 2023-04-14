@@ -1,11 +1,11 @@
 import React from "react";
 import Spline from "@splinetool/react-spline";
 import ParticleBackground from "../../components/shared/ParticleBackground";
+import bgPattern from "../../assets/events/pattern.webp"
 
 const About = () => {
   return (
-    <div>
-      <ParticleBackground />
+    <div className='bg-black' style={{ backgroundImage: `url(${bgPattern})`, backgroundColor: 'rgba(0, 0, 0, 0.9)' }}>
       <div className="container mx-auto flex flex-col justify-center items-center py-16 px-4 md:px-8 h-screen">
         <div className="w-full lg:w-10/12 bg-gray-100 bg-opacity-75 rounded-lg shadow-lg p-8 flex flex-col lg:flex-row items-center justify-center">
           <div className="w-full lg:w-4/12 mb-8 lg:mb-0 lg:mr-8">
