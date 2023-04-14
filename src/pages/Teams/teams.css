@@ -11,7 +11,7 @@
 }
 .card-grid{
     justify-content: center;
-    padding: 0% 18%;
+    padding: 0%;
 }
 .card-grids{
     padding: 0% 20%;
@@ -57,7 +57,7 @@
         padding: 0% 10%;
     }
     .card-grid{
-        padding: 0% 15%;
+        padding: 0%;
     }
 
 }
@@ -68,7 +68,7 @@
         padding: 0% 20%;
     }
     .card-grid{
-        padding:0% 10%;
+        padding:0%;
         padding-left: 50%;
     }
 
@@ -80,7 +80,7 @@
         padding: 0% 10%;
     }
     .card-grid{
-        padding: 0% 15%;
+        padding: 0% ;
     }
 
 }
