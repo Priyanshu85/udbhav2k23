@@ -74,7 +74,7 @@ const Teams = () => {
         {/* Team Memebrs */}
         <div id="team">
           <div className="text-center">
-            <h2 className="text-4xl font-bold">TEAM</h2>
+            <h2 className="text-4xl font-bold">CORE TEAM</h2>
             <h1 className="text-5xl text-amber-400 font-extrabold">MEMBERS</h1>
           </div>
           <div className="w-full flex justify-center items-center">
