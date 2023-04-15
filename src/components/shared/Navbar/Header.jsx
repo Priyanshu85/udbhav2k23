@@ -1,179 +1,93 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./header.css";
 import logo from "../../../assets/loadimage.png";
+import bgImg from "../../../assets/background.jpg";
 import { motion, useCycle } from "framer-motion";
 import MenuItem from "./MenuItem";
 // import JoinUsModal from '../../JoinUsModal/JoinUsModal';
 // import Music from '../Music/Music';
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from "react-router-dom";
 
-const headerVariant = {
-  open: {
-    height: "auto",
-  },
-
-  closed: {
-    height: "0px",
-  },
-};
-
-const sidebar = {
-  open: (height = 1000) => ({
-    backgroundColor: "#222831",
-    clipPath: `circle(${height * 2 + 200}px at 40px 40px)`,
-    transition: {
-      type: "spring",
-      stiffness: 20,
-      restDelta: 2,
-    },
-  }),
-  closed: {
-    backgroundColor: "#9d9d9d",
-    clipPath: "circle(25px at 40px 40px)",
-    transition: {
-      delay: 0.5,
-      type: "spring",
-      stiffness: 400,
-      damping: 40,
-    },
-  },
-};
-
-const Path = (props) => (
-  <motion.path
-    strokeWidth="2.5"
-    stroke="#eeeeee"
-    strokeLinecap="round"
-    {...props}
-  />
-);
-
-const ulVariants = {
-  open: {
-    transition: { staggerChildren: 0.07, delayChildren: 0.2 },
-    display: "block",
-  },
-  closed: {
-    transition: { staggerChildren: 0.05, staggerDirection: -1 },
-    display: "none",
-  },
-};
-
-const buttonVariant = {
-  open: {
-    backgroundColor: "#222831",
-  },
-  closed: {
-    backgroundColor: "#9d9d9d",
-  },
-};
 
 const Header = () => {
+
   const [modalOpen, setModalOpen] = useState(false);
   const [height, setHeight] = useState(0);
-  const [isOpen, toggleOpen] = useCycle(false, true);
-  const containerRef = useRef();
+  const [sticky, setSticky] = useState(false);
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const headerRef = useRef();
+
+  // 
+  const mobileMenuHandler = () => {
+    const layout = document.getElementById('mainLayout');
+    if (mobileMenu) {
+      setMobileMenu(false);
+      layout.classList.remove('max-lg:translate-x-1/2', 'max-lg:translate-y-20', 'max-lg:rounded-tl-2xl');
+    } else {
+      setMobileMenu(true);
+      layout.classList.add('max-lg:translate-x-1/2', 'max-lg:translate-y-20', 'max-lg:rounded-tl-2xl');
+    }
+  }
 
   useEffect(() => {
-    // set header height
-    const containerHeight = containerRef.current.offsetHeight;
-    setHeight(containerHeight);
+
+    const menu = document.getElementById('menu'),
+      menuItems = menu.querySelectorAll('li a');
+    const layout = document.getElementById('mainLayout');
+    menuItems.forEach(element => {
+      element.onclick = () => {
+        setMobileMenu(false);
+        layout.classList.remove('max-lg:translate-x-1/2', 'max-lg:translate-y-20', 'max-lg:rounded-tl-2xl');
+      }
+    });
+
+    const scrollFunc = () => {
+
+      if (window.scrollY > 50) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    }
+
+    document.addEventListener('scroll', scrollFunc);
+
+    return () => document.removeEventListener('scroll', scrollFunc);
+
   }, []);
 
   return (
     <>
-      <motion.header
-        initial={false}
-        variants={headerVariant}
-        animate={isOpen ? "open" : "closed"}
-        custom={height}
-        ref={containerRef}
-        className="header"
-      >
-        <motion.div className="headerBG" variants={sidebar}></motion.div>
-        {/* navigation menu */}
-        <motion.ul variants={ulVariants} className="nav_menu">
-          <MenuItem
-            onClick={() => toggleOpen()}
-            variant="link"
-            to="/"
-            className="logo"
-          >
-            <LazyLoadImage src={logo} alt="logo" />
-          </MenuItem>
-          <MenuItem
-            onClick={() => toggleOpen()}
-            variant="navLink"
-            className="nav_link"
-            data-hover-text="Home"
-            to="/"
-          >
-            Home
-          </MenuItem>
-          <MenuItem
-            onClick={() => toggleOpen()}
-            variant="navLink"
-            className="nav_link"
-            data-hover-text="Events"
-            to="/events"
-          >
-            Events
-          </MenuItem>
-          <MenuItem
-            onClick={() => toggleOpen()}
-            variant="navLink"
-            className="nav_link"
-            data-hover-text="About Us"
-            to="/about"
-          >
-            About Us
-          </MenuItem>
-          <MenuItem
-            onClick={() => toggleOpen()}
-            variant="navLink"
-            className="nav_link"
-            data-hover-text="Team"
-            to="/teams"
-          >
-            Team
-          </MenuItem>
-        </motion.ul>
-        {/* toggle button */}
-        <motion.button onClick={() => toggleOpen()} className="menu_btn">
-          <svg
-            viewBox="0 0 1024 1024"
-            className="icon"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="#000000"
-          >
-            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              <path
-                d="M981.3 170.7H320c-23.6 0-42.7-19.1-42.7-42.7s19.1-42.7 42.7-42.7h661.3c23.6 0 42.7 19.1 42.7 42.7s-19.1 42.7-42.7 42.7zM981.3 938.7H320c-23.6 0-42.7-19.1-42.7-42.7s19.1-42.7 42.7-42.7h661.3c23.6 0 42.7 19.1 42.7 42.7s-19.1 42.7-42.7 42.7zM981.3 554.7H320c-23.6 0-42.7-19.1-42.7-42.7s19.1-42.7 42.7-42.7h661.3c23.6 0 42.7 19.1 42.7 42.7s-19.1 42.7-42.7 42.7z"
-                fill="#d97724"
-              ></path>
-              <path
-                d="M106.7 128m-64 0a64 64 0 1 0 128 0 64 64 0 1 0-128 0Z"
-                fill="#d4d72d"
-              ></path>
-              <path
-                d="M106.7 512m-64 0a64 64 0 1 0 128 0 64 64 0 1 0-128 0Z"
-                fill="#d4d72d"
-              ></path>
-              <path
-                d="M106.7 896m-64 0a64 64 0 1 0 128 0 64 64 0 1 0-128 0Z"
-                fill="#d4d72d"
-              ></path>
-            </g>
-          </svg>
-        </motion.button>
-      </motion.header>
+      <button className={`text-[#D57E0A] z-[10000] fixed w-12 h-12 bg-[#D57E0A] bg-opacity-50 grid place-items-center rounded-full top-4 left-4 duration-300 lg:hidden ${mobileMenu && 'scale-75'}`} onClick={mobileMenuHandler}>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-8 h-8">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+      <header ref={headerRef} className={`${sticky && 'lg:bg-[#222831] lg:bg-opacity-20 lg:backdrop-blur-lg'} ${mobileMenu ? 'max-lg:translate-x-0' : 'max-lg:-translate-x-full'} z-[1000] fixed top-0 left-0 max-lg:w-[45%] lg:w-full max-lg:h-screen duration-300 `}>
+        <div className="lg:container max-lg:h-full mx-auto lg:px-5 mb-2">
+          <div className="flex max-lg:h-full max-lg:flex-col max-lg:justify-center max-lg:gap-y-3 justify-between py-3 place-items-center max-lg:mt-4 mx-auto">
+            <div className={`max-lg:order-2 lg:w-4/12 max-lg:py-6`}>
+              <ul id="menu" className="flex max-lg:flex-col max-lg:gap-3 max-lg:items-center z-50 flex-row gap-x-2">
+                <li><Link className="text-base py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/'>Home</Link></li>
+                <li><Link className="text-base py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/about'>About</Link></li>
+                <li><Link className="text-base py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/events'>Events</Link></li>
+                <li><Link className="text-base py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/teams'>Teams</Link></li>
+              </ul>
+            </div>
+            <div className='max-lg:order-1 w-full lg:w-4/12 text-center'>
+              <img src={logo} alt='logo' className={`${sticky ? 'lg:w-16' : 'lg:w-24'} max-lg:w-11/12 duration-300 mx-auto h-auto`} />
+            </div>
+            <div className="max-lg:order-3 lg:w-4/12 text-end">
+            <a href="#_" class="relative inline-flex items-center justify-center px-10 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">
+<span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-[#D57E0A] rounded-full group-hover:w-56 group-hover:h-56"></span>
+<span class="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
+<span class="relative">Register</span>
+</a>
+            </div>
+          </div>
+        </div>
+      </header>
     </>
   );
 };
