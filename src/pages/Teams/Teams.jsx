@@ -65,7 +65,7 @@ const Teams = () => {
               <LazyLoadImage src={HEROsvg} alt="Hero-svg" className="HERO-img z-10" />
             </div>
           </div>
-          <div className="grid grid-rows-1 pb-5 justify-center">
+          <div className="grid grid-rows-1 xl:h-48 pb-10 justify-center">
             <button className="text-3xl" onClick={handlescroll}>
               <AiOutlineDownCircle />
             </button>
@@ -78,7 +78,7 @@ const Teams = () => {
             <h1 className="text-5xl text-amber-400 font-extrabold">MEMBERS</h1>
           </div>
           <div className="w-full flex justify-center items-center">
-            <div className="grid card-grid gap-y-8 gap-x-16 justify-center xs:grid-cols-1 xs:justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-0 py-32">
+            <div className="grid card-grid gap-y-8 gap-x-10 sm:gap-x-16 justify-center grid-cols-2 xs:grid-cols-2 xs:justify-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 py-32 px-5 md:px-14">
             {cards}
           </div>
           </div>
