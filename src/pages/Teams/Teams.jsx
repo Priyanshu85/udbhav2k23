@@ -4,12 +4,38 @@ import "./teams.css";
 import { AiOutlineDownCircle } from "react-icons/ai";
 import HEROsvg from "../../assets/Teams/HERO.svg";
 import { TeamMember } from "../../data/data";
+import Members from "../../data/members.json"
 import bgPattern from "../../assets/events/pattern.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const Teams = () => {
   const cards = TeamMember.map((data) => {
     return <CardOverlay {...data} key={data.id} />;
   });
+  const Cultural= Members.Cultural.org.map(data=>{
+    return(
+        <h1 className="text-lg py-1">{data.name}</h1>
+    )
+  })
+  const Tech= Members.Techinal.org.map(data=>{
+    return(
+        <h1 className="text-lg py-1">{data.name}</h1>
+    )
+  })
+  const FineArts= Members["Fine-Arts"].org.map(data=>{
+    return(
+        <h1 className="text-lg py-1">{data.name}</h1>
+    )
+  })
+  const Literary= Members.Literary.org.map(data=>{
+    return(
+        <h1 className="text-lg py-1">{data.name}</h1>
+    )
+  })
+  const Fundo= Members.Fundo.org.map(data=>{
+    return(
+        <h1 className="text-lg py-1">{data.name}</h1>
+    )
+  })
 
   function handlescroll() {
     document
@@ -81,6 +107,20 @@ const Teams = () => {
             <div className="grid card-grid gap-y-8 gap-x-10 sm:gap-x-16 justify-center grid-cols-2 xs:grid-cols-2 xs:justify-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 py-32 px-5 md:px-14">
             {cards}
           </div>
+          </div>
+
+          <h1 className="text-4xl text-center text-amber-400 font-extrabold">ORGANIZERS</h1>
+
+          <div className="flex pt-5 justify-center">
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mb-12 rounded-3xl py-12  gap-14 justify-center">
+              <div><h1 className="text-2xl font-bold pb-10">CULTURAL</h1>{Cultural}</div>
+              <div><h1 className="text-2xl font-bold pb-10">TECHNICAL</h1>{Tech}</div>
+              <div><h1 className="text-2xl font-bold pb-10">FINE-ARTS</h1>{FineArts}</div>
+              <div><h1 className="text-2xl font-bold pb-10">LITERARY</h1>{Literary}</div>
+              <div><h1 className="text-2xl font-bold pb-10">FUNDO</h1>{Fundo}</div>
+              
+            </div>
           </div>
         </div>
       </div>
