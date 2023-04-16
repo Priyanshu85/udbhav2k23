@@ -292,12 +292,12 @@ export const TeamMember = [
         'link': 'https://wa.me/+916387459413'
     },
     {
-        'id': '25',
-        'name': 'Sachin Yadav',
-        'image': sachin,
+        'id': '20',
+        'name': 'Tarun Bansal',
+        'image': tarun,
         'color': "#277A70",
 
-        'link': 'https://wa.me/+919794277709'
+        'link': 'https://wa.me/+917900881101'
     },
     {
         'id': '8',
@@ -410,14 +410,6 @@ export const TeamMember = [
         'color': "#277A70",
 
         'link': 'https://wa.me/+919455963915'
-    },
-    {
-        'id': '20',
-        'name': 'Tarun Bansal',
-        'image': tarun,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+917900881101'
     },
     {
         'id': '4',
