@@ -14,27 +14,31 @@ import event3 from '../assets/events/event-3.webp';
 import event4 from '../assets/events/event-4.webp';
 import eventBanner from '../assets/events/single-event-banner.png';
 
-import aditi from "../assets/Teams/Team/aditi.jpg"
-import ayush from "../assets/Teams/Team/ayush.jpg"
-import chetan from "../assets/Teams/Team/chetan.jpg"
-import danish from "../assets/Teams/Team/danish.jpg"
-import dev from "../assets/Teams/Team/dev.jpg"
-import harsh from "../assets/Teams/Team/harsh.jpg"
-import harshita from "../assets/Teams/Team/harshita.jpg"
-import naman from "../assets/Teams/Team/naman.jpg"
-import prabhat from "../assets/Teams/Team/prabhat.jpg"
-import prateek from "../assets/Teams/Team/prateek.jpg"
-import rishabh from "../assets/Teams/Team/rishabh.png"
-import riya from "../assets/Teams/Team/riya.jpg"
-import shruti from "../assets/Teams/Team/shruti.jpg"
-import siddhant from "../assets/Teams/Team/siddhant.png"
-import siddharth from "../assets/Teams/Team/siddharth.jpg"
-import sneha from "../assets/Teams/Team/sneha.jpg"
-import srishti from "../assets/Teams/Team/srishti.jpg"
-import swastik from "../assets/Teams/Team/11.png"
-import swati from "../assets/Teams/Team/swati.jpg"
-import tarun from "../assets/Teams/Team/tarun.jpg"
-import tushar from "../assets/Teams/Team/tushar.jpg"
+import aditi from "../assets/Teams/Team/aditi.webp"
+import ayush from "../assets/Teams/Team/ayush.webp"
+import chetan from "../assets/Teams/Team/chetan.webp"
+import danish from "../assets/Teams/Team/danish.webp"
+import dev from "../assets/Teams/Team/dev.webp"
+import harsh from "../assets/Teams/Team/harsh.webp"
+import harshita from "../assets/Teams/Team/harshita.webp"
+import naman from "../assets/Teams/Team/naman.webp"
+import prabhat from "../assets/Teams/Team/prabhat.webp"
+import prateek from "../assets/Teams/Team/prateek.webp"
+import rishabh from "../assets/Teams/Team/rishabh.webp"
+import riya from "../assets/Teams/Team/riya.webp"
+import shruti from "../assets/Teams/Team/shruti.webp"
+import siddhant from "../assets/Teams/Team/siddhant.webp"
+import siddharth from "../assets/Teams/Team/siddharth.webp"
+import sneha from "../assets/Teams/Team/sneha.webp"
+import srishti from "../assets/Teams/Team/srishti.webp"
+import swastik from "../assets/Teams/Team/11.webp"
+import swati from "../assets/Teams/Team/swati.webp"
+import tarun from "../assets/Teams/Team/tarun.webp"
+import tushar from "../assets/Teams/Team/tushar.webp"
+import sukrit from "../assets/Teams/Team/sukrit.webp"
+import aneesh from "../assets/Teams/Team/aneesh.webp"
+import shresth from "../assets/Teams/Team/shresth.webp"
+import sachin from "../assets/Teams/Team/sachin.webp"
 
 
 
@@ -248,108 +252,28 @@ export const carouselData1 = [
 ];
 export const TeamMember = [
     {
-        'id': '1',
-        'name': 'Aditi Shankar',
-        'image': aditi,
-        'link': 'https://wa.me/+916200909769',
-        'color': '#9A2D9C',
-
-    },
-    {
-        'id': '2',
-        'name': 'Ayush Kr Singh',
-        'image': ayush,
+        'id': '23',
+        'name': 'Aneesh Kumar',
+        'image': aneesh,
         'color': "#277A70",
 
-        'link': 'https://wa.me/+919455963915'
+        'link': 'https://wa.me/+918002798564'
     },
     {
-        'id': '3',
-        'name': 'Chetan Mishra',
-        'image': chetan,
+        'id': '22',
+        'name': 'Sukrit Tiwari',
+        'image': sukrit,
         'color': "#277A70",
 
-        'link': 'https://wa.me/+919654360612'
+        'link': 'https://wa.me/+916391431992'
     },
     {
-        'id': '4',
-        'name': 'Danish Ahmad',
-        'image': danish,
+        'id': '24',
+        'name': 'Shresth Agarwal',
+        'image': shresth,
         'color': "#277A70",
 
-        'link': 'https://wa.me/+917895555848'
-    },
-    {
-        'id': '5',
-        'name': 'Dev Verma',
-        'image': dev,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+918171970884'
-    },
-    {
-        'id': '6',
-        'name': 'Harsh Tiwari',
-        'image': harsh,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+917905258157'
-    },
-    {
-        'id': '7',
-        'name': 'Harshita Rajoriya',
-        'image': harshita,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+919582735756'
-    },
-    {
-        'id': '8',
-        'name': 'Naman Mehra',
-        'image': naman,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+91'
-    },
-    {
-        'id': '9',
-        'name': 'Prabhat Kr Tiwari',
-        'image': prabhat,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+918081413299'
-    },
-    {
-        'id': '10',
-        'name': 'Prateek Rai',
-        'image': prateek,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+918707283119'
-    },
-    {
-        'id': '11',
-        'name': 'Rishabh Jain',
-        'image': rishabh,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+919999601526'
-    },
-    {
-        'id': '12',
-        'name': 'Riya Sharma',
-        'image': riya,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+918377015592'
-    },
-    {
-        'id': '13',
-        'name': 'Shruti Jain',
-        'image': shruti,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+919811552127'
+        'link': 'https://wa.me/+917678276792'
     },
     {
         'id': '14',
@@ -360,22 +284,6 @@ export const TeamMember = [
         'link': 'https://wa.me/+919838944491'
     },
     {
-        'id': '15',
-        'name': 'Siddharth Mishra',
-        'image': siddharth,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+917379412633'
-    },
-    {
-        'id': '16',
-        'name': 'Sneha Saurabh',
-        'image': sneha,
-        'color': "#277A70",
-
-        'link': 'https://wa.me/+917267003800'
-    },
-    {
         'id': '17',
         'name': 'Srishti Rai',
         'image': srishti,
@@ -384,12 +292,60 @@ export const TeamMember = [
         'link': 'https://wa.me/+916387459413'
     },
     {
-        'id': '18',
-        'name': 'Swastik Sharma',
-        'image': swastik,
+        'id': '25',
+        'name': 'Sachin Yadav',
+        'image': sachin,
         'color': "#277A70",
 
-        'link': 'https://wa.me/+918826018098'
+        'link': 'https://wa.me/+919794277709'
+    },
+    {
+        'id': '8',
+        'name': 'Naman Mehra',
+        'image': naman,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+916005305612'
+    },
+    {
+        'id': '15',
+        'name': 'Siddharth Mishra',
+        'image': siddharth,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+917379412633'
+    },
+    {
+        'id': '21',
+        'name': 'Tushar Saxena',
+        'image': tushar,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+919958794205'
+    },
+    {
+        'id': '3',
+        'name': 'Chetan Mishra',
+        'image': chetan,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+919654360612'
+    },
+    {
+        'id': '5',
+        'name': 'Dev Verma',
+        'image': dev,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+918171970884'
+    },
+    {
+        'id': '1',
+        'name': 'Aditi Shankar',
+        'image': aditi,
+        'link': 'https://wa.me/+916200909769',
+        'color': '#9A2D9C',
+
     },
     {
         'id': '19',
@@ -400,6 +356,62 @@ export const TeamMember = [
         'link': 'https://wa.me/+918303751023'
     },
     {
+        'id': '9',
+        'name': 'Prabhat Kr Tiwari',
+        'image': prabhat,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+918081413299'
+    },
+    {
+        'id': '12',
+        'name': 'Riya Sharma',
+        'image': riya,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+918377015592'
+    },
+    {
+        'id': '16',
+        'name': 'Sneha Saurabh',
+        'image': sneha,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+917267003800'
+    },
+    {
+        'id': '13',
+        'name': 'Shruti Jain',
+        'image': shruti,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+919811552127'
+    },
+    {
+        'id': '11',
+        'name': 'Rishabh Jain',
+        'image': rishabh,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+919999601526'
+    },
+    {
+        'id': '18',
+        'name': 'Swastik Sharma',
+        'image': swastik,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+918826018098'
+    },
+    {
+        'id': '2',
+        'name': 'Ayush Kr Singh',
+        'image': ayush,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+919455963915'
+    },
+    {
         'id': '20',
         'name': 'Tarun Bansal',
         'image': tarun,
@@ -408,11 +420,35 @@ export const TeamMember = [
         'link': 'https://wa.me/+917900881101'
     },
     {
-        'id': '21',
-        'name': 'Tushar Saxena',
-        'image': tushar,
+        'id': '4',
+        'name': 'Danish Ahmad',
+        'image': danish,
         'color': "#277A70",
 
-        'link': 'https://wa.me/+919958794205'
+        'link': 'https://wa.me/+917895555848'
+    },
+    {
+        'id': '6',
+        'name': 'Harsh Tewari',
+        'image': harsh,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+917905258157'
+    },
+    {
+        'id': '10',
+        'name': 'Prateek Rai',
+        'image': prateek,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+918707283119'
+    },
+    {
+        'id': '7',
+        'name': 'Harshita Rajoriya',
+        'image': harshita,
+        'color': "#277A70",
+
+        'link': 'https://wa.me/+919582735756'
     },
 ]

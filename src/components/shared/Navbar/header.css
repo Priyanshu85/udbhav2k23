@@ -20,6 +20,7 @@ a {
     max-width: 100%;
     z-index: 100;
     font-family: 'Raleway', Arial, sans-serif;
+    margin-bottom: 10rem;
 }
 
 .headerBG {

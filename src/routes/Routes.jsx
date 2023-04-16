@@ -6,6 +6,7 @@ import MainLayout from "../layout/MainLayout";
 
 //pages
 import { Home, About, Events, Teams, SingleEvent } from '../pages';
+import Inbuilding from "../components/shared/Inbuilding";
 
 
 const Routes = () => {
@@ -20,7 +21,7 @@ const Routes = () => {
         },
         {
           path: "/about",
-          element: <About />,
+          element: <Inbuilding />,
         },
         {
           path: "/teams",
@@ -28,16 +29,17 @@ const Routes = () => {
         },
         {
           path: "/events",
-          children: [
-            {
-              path: '/events',
-              element: <Events />,
-            },
-            {
-              path: '/events/:eventSlug',
-              element: <SingleEvent />,
-            }
-          ]
+          element:<Inbuilding/>
+          // children: [
+          //   {
+          //     path: '/events',
+          //     element: <Events />,
+          //   },
+          //   {
+          //     path: '/events/:eventSlug',
+          //     element: <SingleEvent />,
+          //   }
+          // ]
         },
       ],
     },

@@ -13,27 +13,27 @@ const Teams = () => {
   });
   const Cultural= Members.Cultural.org.map(data=>{
     return(
-        <h1 className="text-lg py-1">{data.name}</h1>
+        <h1 className="text-md py-1" key={data.key}>{data.name}</h1>
     )
   })
   const Tech= Members.Techinal.org.map(data=>{
     return(
-        <h1 className="text-lg py-1">{data.name}</h1>
+        <h1 className="text-md py-1" key={data.key}>{data.name}</h1>
     )
   })
   const FineArts= Members["Fine-Arts"].org.map(data=>{
     return(
-        <h1 className="text-lg py-1">{data.name}</h1>
+        <h1 className="text-md py-1" key={data.name}>{data.name}</h1>
     )
   })
   const Literary= Members.Literary.org.map(data=>{
     return(
-        <h1 className="text-lg py-1">{data.name}</h1>
+        <h1 className="text-md py-1" key={data.name}>{data.name}</h1>
     )
   })
   const Fundo= Members.Fundo.org.map(data=>{
     return(
-        <h1 className="text-lg py-1">{data.name}</h1>
+        <h1 className="text-lg py-1" key={data.name}>{data.name}</h1>
     )
   })
 
@@ -113,12 +113,12 @@ const Teams = () => {
 
           <div className="flex pt-5 justify-center">
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mb-12 rounded-3xl py-12  gap-14 justify-center">
-              <div><h1 className="text-2xl font-bold pb-10">CULTURAL</h1>{Cultural}</div>
-              <div><h1 className="text-2xl font-bold pb-10">TECHNICAL</h1>{Tech}</div>
-              <div><h1 className="text-2xl font-bold pb-10">FINE-ARTS</h1>{FineArts}</div>
-              <div><h1 className="text-2xl font-bold pb-10">LITERARY</h1>{Literary}</div>
-              <div><h1 className="text-2xl font-bold pb-10">FUNDO</h1>{Fundo}</div>
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mb-12 rounded-3xl py-12 lg:gap-14 justify-center px-5">
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">CULTURAL</h1>{Cultural}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">TECHNICAL</h1>{Tech}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">FINE-ARTS</h1>{FineArts}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">LITERARY</h1>{Literary}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">FUNDO</h1>{Fundo}</div>
               
             </div>
           </div>

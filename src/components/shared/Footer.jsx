@@ -6,7 +6,8 @@ const Footer = () => {
       <div className="container px-6 pt-6">
         <div className="mb-0 flex justify-center">
           <a
-            href="#!"
+            href="https://m.facebook.com/profile.php?id=100091636268354&v=info&ref=ig_profile_ac&funlid=1UZ3hYTdftKHSvar"
+            target='_blank'
             type="button"
             className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
             data-te-ripple-color="light">
@@ -23,7 +24,8 @@ const Footer = () => {
          
     
           <a
-            href="#!"
+            href="https://instagram.com/udbhavipec?igshid=YmMyMTA2M2Y="
+            target='_blank'
             type="button"
             className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
             data-te-ripple-init
@@ -39,7 +41,8 @@ const Footer = () => {
           </a>
     
           <a
-            href="#!"
+            href="https://www.linkedin.com/in/ipec-ghaziabad/"
+            target='_blank'
             type="button"
             className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
             data-te-ripple-init
@@ -61,7 +64,7 @@ const Footer = () => {
         className="p-4 text-center"
         style={{backgroundColor: 'rgba(0, 0, 0, 0)'}}>
         © 2023 Copyright : 
-        <a className="text-white" href="https://tailwind-elements.com/"
+        <a className="text-white" href="https://udbhav23.tech"
         > Udbhav 2023</a>
       </div>
     </footer>

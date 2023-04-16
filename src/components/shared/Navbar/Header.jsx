@@ -66,7 +66,7 @@ const Header = () => {
       </button>
       <header ref={headerRef} className={`${sticky && 'lg:bg-[#222831] lg:bg-opacity-20 lg:backdrop-blur-lg'} ${mobileMenu ? 'max-lg:translate-x-0' : 'max-lg:-translate-x-full'} z-[1000] fixed top-0 left-0 max-lg:w-[45%] lg:w-full max-lg:h-screen duration-300 `}>
         <div className="lg:container max-lg:h-full mx-auto lg:px-5 mb-2">
-          <div className="flex max-lg:h-full max-lg:flex-col max-lg:justify-center max-lg:gap-y-3 justify-between py-3 place-items-center max-lg:mt-4 mx-auto">
+          <div className="flex max-lg:h-full max-lg:flex-col max-lg:justify-center max-lg:gap-y-3 justify-between py-3 place-items-center max-lg:mt-4 mx-auto ">
             <div className={`max-lg:order-2 lg:w-4/12 max-lg:py-6`}>
               <ul id="menu" className="flex max-lg:flex-col max-lg:gap-3 max-lg:items-center z-50 flex-row gap-x-2">
                 <li><Link className="text-base py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/'>Home</Link></li>
@@ -79,10 +79,10 @@ const Header = () => {
               <img src={logo} alt='logo' className={`${sticky ? 'lg:w-16' : 'lg:w-24'} max-lg:w-11/12 duration-300 mx-auto h-auto`} />
             </div>
             <div className="max-lg:order-3 lg:w-4/12 text-end">
-            <a href="#_" class="relative inline-flex items-center justify-center px-10 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">
-<span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-[#D57E0A] rounded-full group-hover:w-56 group-hover:h-56"></span>
-<span class="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
-<span class="relative">Register</span>
+            <a href="https://udbhavipec.eventbrite.com" target="_blank" className="relative inline-flex items-center justify-center px-10 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">
+<span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-[#D57E0A] rounded-full group-hover:w-56 group-hover:h-56"></span>
+<span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
+<span className="relative">Register</span>
 </a>
             </div>
           </div>
