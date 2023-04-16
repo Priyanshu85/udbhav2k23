@@ -36,6 +36,16 @@ const Teams = () => {
         <h1 className="text-lg py-1" key={data.name}>{data.name}</h1>
     )
   })
+  const Faculty= Members["Faculty-Events"].org.map(data=>{
+    return(
+        <h1 className="text-lg py-1" key={data.name}>{data.name}</h1>
+    )
+  })
+  const Registration= Members.Registration.org.map(data=>{
+    return(
+        <h1 className="text-lg py-1" key={data.name}>{data.name}</h1>
+    )
+  })
 
   function handlescroll() {
     document
@@ -113,13 +123,14 @@ const Teams = () => {
 
           <div className="flex pt-5 justify-center">
             
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mb-12 rounded-3xl py-12 lg:gap-14 justify-center px-5">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 mb-12 rounded-3xl py-12 lg:gap-14 justify-center px-5">
               <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">CULTURAL</h1>{Cultural}</div>
               <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">TECHNICAL</h1>{Tech}</div>
               <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">FINE-ARTS</h1>{FineArts}</div>
               <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">LITERARY</h1>{Literary}</div>
               <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">FUNDO</h1>{Fundo}</div>
-              
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">Faculty Events</h1>{Faculty}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">Registration</h1>{Registration}</div>
             </div>
           </div>
         </div>
