@@ -4,12 +4,48 @@ import "./teams.css";
 import { AiOutlineDownCircle } from "react-icons/ai";
 import HEROsvg from "../../assets/Teams/HERO.svg";
 import { TeamMember } from "../../data/data";
+import Members from "../../data/members.json"
 import bgPattern from "../../assets/events/pattern.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const Teams = () => {
   const cards = TeamMember.map((data) => {
     return <CardOverlay {...data} key={data.id} />;
   });
+  const Cultural= Members.Cultural.org.map(data=>{
+    return(
+        <h1 className="text-md py-1" key={data.key}>{data.name}</h1>
+    )
+  })
+  const Tech= Members.Techinal.org.map(data=>{
+    return(
+        <h1 className="text-md py-1" key={data.key}>{data.name}</h1>
+    )
+  })
+  const FineArts= Members["Fine-Arts"].org.map(data=>{
+    return(
+        <h1 className="text-md py-1" key={data.name}>{data.name}</h1>
+    )
+  })
+  const Literary= Members.Literary.org.map(data=>{
+    return(
+        <h1 className="text-md py-1" key={data.name}>{data.name}</h1>
+    )
+  })
+  const Fundo= Members.Fundo.org.map(data=>{
+    return(
+        <h1 className="text-lg py-1" key={data.name}>{data.name}</h1>
+    )
+  })
+  const Faculty= Members["Faculty-Events"].org.map(data=>{
+    return(
+        <h1 className="text-lg py-1" key={data.name}>{data.name}</h1>
+    )
+  })
+  const Registration= Members.Registration.org.map(data=>{
+    return(
+        <h1 className="text-lg py-1" key={data.name}>{data.name}</h1>
+    )
+  })
 
   function handlescroll() {
     document
@@ -65,7 +101,7 @@ const Teams = () => {
               <LazyLoadImage src={HEROsvg} alt="Hero-svg" className="HERO-img z-10" />
             </div>
           </div>
-          <div className="grid grid-rows-1 pb-5 justify-center">
+          <div className="grid grid-rows-1 xl:h-48 pb-10 justify-center">
             <button className="text-3xl" onClick={handlescroll}>
               <AiOutlineDownCircle />
             </button>
@@ -78,9 +114,24 @@ const Teams = () => {
             <h1 className="text-5xl text-amber-400 font-extrabold">MEMBERS</h1>
           </div>
           <div className="w-full flex justify-center items-center">
-            <div className="grid card-grid gap-y-8 gap-x-16 justify-center xs:grid-cols-1 xs:justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-0 py-32">
+            <div className="grid card-grid gap-y-8 gap-x-10 sm:gap-x-16 justify-center grid-cols-2 xs:grid-cols-2 xs:justify-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 py-32 px-5 md:px-14">
             {cards}
           </div>
+          </div>
+
+          <h1 className="text-4xl text-center text-amber-400 font-extrabold">ORGANIZERS</h1>
+
+          <div className="flex pt-5 justify-center">
+            
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 mb-12 rounded-3xl py-12 lg:gap-14 justify-center px-5">
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">CULTURAL</h1>{Cultural}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">TECHNICAL</h1>{Tech}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">FINE-ARTS</h1>{FineArts}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">LITERARY</h1>{Literary}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">FUNDO</h1>{Fundo}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">Faculty Events</h1>{Faculty}</div>
+              <div><h1 className="text-xl font-bold pb-10 text-amber-400 mt-6">Registration</h1>{Registration}</div>
+            </div>
           </div>
         </div>
       </div>

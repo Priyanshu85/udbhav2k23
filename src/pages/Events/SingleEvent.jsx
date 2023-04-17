@@ -138,7 +138,7 @@ const SingleEvent = () => {
                                     </span>
                                 </p>
                                 <div className='pl-12'>
-                                    {winner.map((item, index) =>
+                                    {winner?.map((item, index) =>
                                         <p key={index} className='text-base py-2 px-3 mb-2 rounded-md bg-[#D57E0A] text-white font-medium flex gap-x-2'>
                                             <span>{item.name} :</span>
                                             <span className='font-normal'>{item.id}</span>

@@ -1,0 +1,466 @@
+{
+  "key":"1",
+  "id":"1",
+  "Cultural":{
+    "core":[
+      {
+        "name": "Siddhant Dixit"
+      },
+      {
+        "name": "Sneha Saurabh"
+      },
+      {
+        "name": "Srishti Rai"
+      },
+      {
+        "name": "Riya Sharma"
+      },
+      {
+        "name": "Chetan Mishra"
+      },
+      {
+        "name": "Dev Verma"
+      },
+      {
+        "name": "Tushar Saxenz"
+        
+      }
+    ],
+    "org":[
+      {
+        "name": "Saksham Tyagi",
+        "key" : "1"
+      },
+      {
+        "name": "Sahil Jain",
+        "key" : "2"
+      },
+      {
+        "name":"Shani Yadav",
+        "key" : "20"
+      },
+      {
+        "name": "Aaryan Singh",
+        "key" : "3"
+      },
+      {
+        "name": "Suryansh Gupta",
+        "key" : "4"
+      },
+      {
+        "name": "Vivaan Lakhotia",
+        "key" : "5"
+      },
+      {
+        "name": "Aashana Sahai",
+        "key" : "6"
+      },
+      {
+        "name": "Sanjeet Kumar",
+        "key" : "7"
+      },
+      {
+        "name": "Priyal Jain",
+        "key" : "8"
+      },
+      {
+        "name": "Ayush Srivastava",
+        "key" : "9"
+      },
+      {
+        "name": "Akshay Tyagi",
+        "key" : "10"
+      },
+      {
+        "name": "Parth Sharma",
+        "key" : "11"
+      },
+      {
+        "name": "Nishita Srivastava",
+        "key" : "12"
+      },
+      {
+        "name": "Rishab Singh Negi",
+        "key" : "13" 
+      },
+      {
+        "name": "Ishant Sharma" ,
+        "key" : "14"
+      },
+      {
+        "name": "Khushi Goel" ,
+        "key" : "15"
+      },
+      {
+        "name": "Akkshita Upadhyay" ,
+        "key" : "16"
+      },
+      {
+        "name": "Faiza Fatima" ,
+        "key" : "17"
+      },
+      {
+        "name": "Suvigy Patel" ,
+        "key" : "18"
+      },
+      {
+        "name": "Anjali Joshi",
+        "key" : "19" 
+      }
+    ]
+  },
+  "Techinal":{
+    "core":[
+      {
+        "name": "Sukrit Tiwari"
+      },
+      {
+        "name": "Shresth Agarwal"
+      },
+      {
+        "name": "Naman Mehra"
+      }
+    ],
+    "org":[
+      {
+        "name": "Priyanshu Gupta",
+        "key" : "1"
+      },
+      {
+        "name": "Mridul" ,
+        "key" : "2"
+      },
+      {
+        "name": "Bhavya Tyagi",
+        "key" : "3" 
+      },
+      {
+        "name": "Guramrit" ,
+        "key" : "4"
+      },
+      {
+        "name": "Nishant Singh",
+        "key" : "5"
+      },
+      {
+        "name": "Kavyansh Gupta",
+        "key" : "6"
+      },
+      {
+        "name": "Dhruv Varshney",
+        "key" : "7"
+      },
+      {
+        "name": "Samana Butool Mirza",
+        "key" : "8"
+      },
+      {
+        "name": "Sveni Nolkha",
+        "key" : "9"
+      },
+      {
+        "name": "Tejas Srivastava",
+        "key" : "10"
+      },
+      {
+        "name": "Ashutosh Kumar",
+        "key" : "11"
+      },
+      {
+        "name": "Harshit Sharma",
+        "key" : "12"
+      },
+      {
+        "name": "Abhishek Singh",
+        "key" : "13"
+      },
+      {
+        "name": "Sachit Saini",
+        "key" : "14"
+      },
+      {
+        "name": "Eti Garg",
+        "key" : "15"
+      },
+      {
+        "name": "Chinmay Pundir" ,
+        "key" : "16"
+      },
+      {
+        "name": "Nimish Narula" ,
+        "key" : "17"
+      },
+      {
+        "name": "Saksham Srivastava" ,
+        "key" : "18"
+      },
+      {
+        "name": "Prabhav" ,
+        "key" : "19"
+      },
+      {
+        "name": "Sachin Verma" ,
+        "key" : "20"
+      },
+      {
+        "name": "Prince Kumar" ,
+        "key" : "21"
+      },
+      {
+        "name": "Anuj Gupta" ,
+        "key" : "22"
+      }
+    ]
+  },
+  "Fine-Arts":{
+    "core":[
+      {
+        "name": "Tarun Bansal"
+      },
+      {
+        "name": "Danish Ahmad"
+      },
+      {
+        "name": "Swati Singh"
+      },
+      {
+        "name": "Aditi Shankar"
+      }
+    ],
+    "org":[
+      {
+        "name": "Agam Srivastava"
+      },
+      {
+        "name": "Nisha Yadav"
+      },
+      {
+        "name": "Divyansh Gupta"
+      },
+      {
+        "name": "Gaurangi Rawat"
+      },
+      {
+        "name": "Yash Raj Keshari"
+      },
+      {
+        "name": "Diksha Soni"
+      },
+      {
+        "name": "Adya Awasthi"
+        
+      },
+      {
+        "name": "Shraddha Tayal"
+        
+      },
+      {
+        "name": "Piyush Kumar"
+        
+      },
+      {
+        "name": "Hardick Bhadauria"
+        
+      },
+      {
+        "name": "Khushi Sharma"
+        
+      },
+      {
+        "name": "Ankit Singh"
+      },
+      {
+        "name": "Harsh Jaiswal" 
+      },
+      {
+        "name": "Pranjal Shukla" 
+      }
+    ]
+  },
+  "Fundo":{
+    "core":[
+      {
+        "name": "Harshita Rajoriya"
+      },
+      {
+        "name": "Shruti Jain"
+      },
+      {
+        "name": "Harsh Tiwari"
+      }
+    ],
+    "org":[
+      {
+        "name": "Pawan Kumar Gupta"
+      },
+      {
+        "name": "Shreshtha Agarwal"
+      },
+      {
+        "name": "Shubhangini Singh"
+      },
+      {
+        "name": "Shaksham Rai"
+      },
+      {
+        "name": "Khushal Garg"
+      },
+      {
+        "name": "Siddharth Gautam"
+      },
+      {
+        "name": "Samarth Saxena"
+        
+      },
+      {
+        "name": "Sachin Katyal"
+        
+      },
+      {
+        "name": "Anusha Rao"
+        
+      },
+      {
+        "name": "Amaan Khan"
+        
+      },
+      {
+        "name": "Anmol Chawla"
+        
+      }
+    ]
+  },
+  "Literary":{
+    "core":[
+      {
+        "name": "Siddharth Mishra"
+      },
+      {
+        "name": "Prabhat Tiwari"
+      },
+      {
+        "name": "Prateek Rai"
+      }
+    ],
+    "org":[
+      {
+        "name": "Kavya Sinha"
+      },
+      {
+        "name": "Anuj Bisht"
+      },
+      {
+        "name": "Pranshu Singh"
+      },
+      {
+        "name": "Yash Somvanshi"
+      },
+      {
+        "name": "Aditya Chauhan"
+      },
+      {
+        "name": "Umang Mishra"
+      },
+      {
+        "name": "Avantika Srivastava"
+        
+      },
+      {
+        "name": "Ishika Mishra"
+        
+      }
+    ]
+  },
+  "Registration":{
+    "core":[
+      {
+        "name": "Shubham Rajput"
+      },
+      {
+        "name": "Rishabh Jain"
+      },
+      {
+        "name": "Swastik Sharma"
+      }
+    ],
+    "org":[
+      {
+        "name": "Parijat Singh"
+      },
+      {
+        "name": "Atishay Jain"
+      },
+      {
+        "name": "Utkarsh Verma"
+      },
+      {
+        "name": "Nandini Raghav"
+      },
+      {
+        "name": "Pulkit Tyagi"
+      },
+      {
+        "name": "Shivangi Gupta"
+      },
+      {
+        "name": "Ritik Vishwakarama"
+        
+      },
+      {
+        "name": "Palak Pathak"
+      },
+      {
+        "name": "Arnav Chauhan"
+      },
+      {
+        "name": "Shivank Yadav"
+      },
+      {
+        "name": "Shiva Srivastava"
+      },
+      {
+        "name": "Jatin Kumar Prajapati"
+      }
+    ]
+  },
+  "Faculty-Events":{
+    "core":[
+      {
+        "name": "Ayush Kr Singh"
+      }
+    ],
+    "org":[
+      {
+        "name": "Isha Tiwari"
+      },
+      {
+        "name": "Jigyansh Tanwar"
+      },
+      {
+        "name": "Krishna"
+      },
+      {
+        "name": "Prabhat Kumar"
+      },
+      {
+        "name": "Gahna Singh Vishen"
+      },
+      {
+        "name": "Nitin Srivastava"
+      },
+      {
+        "name": "Harshit Tiwari"
+        
+      },
+      {
+        "name": "Harshit Mehandiratta"
+      },
+      {
+        "name": "Priyanshi jain"
+      },
+      {
+        "name": "Saksham Gupta"
+      }
+    ]
+  }
+}
