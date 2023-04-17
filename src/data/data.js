@@ -1,7 +1,7 @@
 
 // assets
 // carousel
-import sangamLarge from '../assets/events/GraziaLarge.webp';
+import sangamLarge from '../assets/events/sangamLarge.webp';
 import nrityangnaLarge from '../assets/events/NrityangnaLarge.webp';
 import sargamLarge from '../assets/events/sargamLarge.webp';
 import graziaLarge from '../assets/events/GraziaLarge.webp';
@@ -81,7 +81,7 @@ export const carouselData1 = [
         // approved: true,
         // disable: true,
         // special: true,
-        registrationLink: '',
+        registrationLink: 'https://tinyurl.com/grazia23',
         day: 0,
         // winner: [
         //     { name: 'Shresth', id: 'Wi1223' },
@@ -121,7 +121,7 @@ export const carouselData1 = [
         poc: { RIYA: "8377015592", SRISHTI: "6387459413" },
         banner:
             sargam,
-        registrationLink: "",
+        registrationLink: "https://tinyurl.com/sargam23",
         day: 0,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
@@ -164,7 +164,7 @@ export const carouselData1 = [
         // approved: true,
         // disable: false,
         // special: true,
-        registrationLink: "",
+        registrationLink: "https://tinyurl.com/nrityangana23",
         day: 0,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
@@ -174,7 +174,7 @@ export const carouselData1 = [
     },
     {
         event_id: "2d639d86-e593-418f-be1e-27f0576d533c",
-        event_name: "SANGAM",
+        event_name: "NRITYASANGAM",
         poster: sangamLarge,
         slug: `sangam`,
         tagline: "Duet Dance",
@@ -209,7 +209,7 @@ export const carouselData1 = [
         approved: true,
         disable: true,
         special: true,
-        registrationLink: "https://carbon-gym.vercel.app",
+        registrationLink: "https://tinyurl.com/nrityasangam23",
         day: 0,
         winner: [
             { name: 'Ajoy', id: 'Wi1223' },
