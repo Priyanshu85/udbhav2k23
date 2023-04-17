@@ -29,18 +29,19 @@ const Routes = () => {
         },
         {
           path: "/events",
-          element:<Inbuilding/>
-          // children: [
-          //   {
-          //     path: '/events',
-          //     element: <Events />,
-          //   },
-          //   {
-          //     path: '/events/:eventSlug',
-          //     element: <SingleEvent />,
-          //   }
-          // ]
-        },
+          element: <Inbuilding />,
+        }
+        //   children: [
+        //     {
+        //       path: '/events',
+        //       element: <Events />,
+        //     },
+        //     {
+        //       path: '/events/:eventSlug',
+        //       element: <SingleEvent />,
+        //     }
+        //   ]
+        // },
       ],
     },
   ]);

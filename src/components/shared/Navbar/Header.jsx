@@ -1,19 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./header.css";
 import logo from "../../../assets/loadimage.png";
-import bgImg from "../../../assets/background.jpg";
-import { motion, useCycle } from "framer-motion";
-import MenuItem from "./MenuItem";
-// import JoinUsModal from '../../JoinUsModal/JoinUsModal';
-// import Music from '../Music/Music';
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
+import ipec from '../../../assets/ipec.png'
 
 
 const Header = () => {
 
-  const [modalOpen, setModalOpen] = useState(false);
-  const [height, setHeight] = useState(0);
   const [sticky, setSticky] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
   const headerRef = useRef();
@@ -65,14 +58,15 @@ const Header = () => {
         </svg>
       </button>
       <header ref={headerRef} className={`${sticky && 'lg:bg-[#222831] lg:bg-opacity-20 lg:backdrop-blur-lg'} ${mobileMenu ? 'max-lg:translate-x-0' : 'max-lg:-translate-x-full'} z-[1000] fixed top-0 left-0 max-lg:w-[45%] lg:w-full max-lg:h-screen duration-300 `}>
-        <div className="lg:container max-lg:h-full mx-auto lg:px-5 mb-2">
+        <div className="lg:container max-lg:h-full lg:mx-0 mx-auto lg:px-5 mb-2">
           <div className="flex max-lg:h-full max-lg:flex-col max-lg:justify-center max-lg:gap-y-3 justify-between py-3 place-items-center max-lg:mt-4 mx-auto ">
+            <img src={ipec} alt='ipec-logo' className='w-56 mr-44 lg:flex hidden' />
             <div className={`max-lg:order-2 lg:w-4/12 max-lg:py-6`}>
-              <ul id="menu" className="flex max-lg:flex-col max-lg:gap-3 max-lg:items-center z-50 flex-row gap-x-2">
-                <li><Link className="text-base py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/'>Home</Link></li>
-                <li><Link className="text-base py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/about'>About</Link></li>
-                <li><Link className="text-base py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/events'>Events</Link></li>
-                <li><Link className="text-base py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/teams'>Teams</Link></li>
+              <ul id="menu" className="flex max-lg:flex-col max-lg:gap-5 max-lg:items-center z-50 flex-row gap-x-2">
+                <li><Link className="text-lg hover:underline py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/'>Home</Link></li>
+                <li><Link className="text-lg hover:underline py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/about'>About</Link></li>
+                <li><Link className="text-lg hover:underline py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/events'>Events</Link></li>
+                <li><Link className="text-lg hover:underline py-2 px-5 inline-block font-medium text-[#D57E0A]" to='/teams'>Teams</Link></li>
               </ul>
             </div>
             <div className='max-lg:order-1 w-full lg:w-4/12 text-center'>
