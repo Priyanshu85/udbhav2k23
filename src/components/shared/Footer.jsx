@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return ( 
@@ -63,9 +64,9 @@ const Footer = () => {
       <div
         className="p-4 text-center"
         style={{backgroundColor: 'rgba(0, 0, 0, 0)'}}>
-        © 2023 Copyright : 
-        <a className="text-white" href="https://udbhav23.tech"
-        > Udbhav 2023</a>
+        <p>© 2023 Copyright : 
+        <a className="text-red-500" href="https://udbhav23.tech"
+        > Udbhav 2023</a> | Designed and Developed by <Link to='/devs' className='font-bold underline cursor-pointer text-red-600'>TEAM</Link></p>
       </div>
     </footer>
   )

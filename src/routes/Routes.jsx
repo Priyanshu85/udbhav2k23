@@ -5,7 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 
 //pages
-import { Home, About, Events, Teams, SingleEvent } from '../pages';
+import { Home, About, Events, Teams, SingleEvent,Developers } from '../pages';
 import Inbuilding from "../components/shared/Inbuilding";
 
 
@@ -26,6 +26,10 @@ const Routes = () => {
         {
           path: "/teams",
           element: <Teams />,
+        },
+        {
+          path: "/devs",
+          element: <Developers />,
         },
         {
           path: "/events",
