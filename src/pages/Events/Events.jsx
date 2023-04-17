@@ -18,8 +18,8 @@ const Events = () => {
       <div className='py-20 container mx-auto px-5'>
 
         <div className='flex justify-center items-center gap-x-3'>
-          <button className={`text-4xl font-SquadaOne rounded-md py-2 px-4 ${selectedDay === 0 ? 'text-black bg-white' : 'text-white'} hover:scale-105 duration-200`} onClick={() => setSelectedDay(0)}>Day 0</button>
-          <button className={`text-4xl font-SquadaOne rounded-md py-2 px-4 ${selectedDay === 1 ? 'text-black bg-white' : 'text-white'} hover:scale-105 duration-200`} onClick={() => setSelectedDay(1)}>Day 1</button>
+          <button className={`text-4xl font-SquadaOne rounded-md py-2 px-4 ${selectedDay === 0 ? 'text-black bg-white' : 'text-white'} hover:scale-105 duration-200`} onClick={() => setSelectedDay(0)}>Day 1</button>
+          <button className={`text-4xl font-SquadaOne rounded-md py-2 px-4 ${selectedDay === 1 ? 'text-black bg-white' : 'text-white'} hover:scale-105 duration-200`} onClick={() => setSelectedDay(1)}>Day 2</button>
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-10'>
           {eventsData.map((event, index) => <EventsCard event={event} key={index} />)}
