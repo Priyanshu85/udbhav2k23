@@ -5,21 +5,16 @@ import sangamLarge from '../assets/events/sangamLarge.webp';
 import nrityangnaLarge from '../assets/events/NrityangnaLarge.webp';
 import sargamLarge from '../assets/events/sargamLarge.webp';
 import graziaLarge from '../assets/events/GraziaLarge.webp';
-import img1 from '../assets/events/carousel-1.png';
-import img2 from '../assets/events/carousel-2.png';
-import img3 from '../assets/events/carousel-3.png';
-import img4 from '../assets/events/carousel-4.png';
-import img5 from '../assets/events/carousel-5.png';
+import jugalbandiLarge from '../assets/events/jugalbandiLarge.webp'
+import jashnLarge from '../assets/events/jashn-e-nachLarge.webp'
 
 // events
 import grazia from '../assets/events/Grazia.webp'
 import nrityangna from '../assets/events/Nrityangna.webp'
 import nrityaSangam from '../assets/events/nritya_sargam.webp'
 import sargam from '../assets/events/sargam.webp';
-import event2 from '../assets/events/event-2.webp';
-import event3 from '../assets/events/event-3.webp';
-import event4 from '../assets/events/event-4.webp';
-import eventBanner from '../assets/events/single-event-banner.png';
+import jugalbandi from '../assets/events/jugalbandi.webp'
+import jashn from '../assets/events/jashn.webp'
 
 import aditi from "../assets/Teams/Team/aditi.webp"
 import ayush from "../assets/Teams/Team/ayush.webp"
@@ -63,6 +58,7 @@ export const carouselData1 = [
             "Outfit Guidelines: Outfits should be decent, appropriate, and not offensive.",
             "Participants are required to bring their own soundtrack for their fashion shown performance and submit it to the event organizers at least 30 minutes before the start of the event.",
             "Participants will be judged on walk, posture, confidence, and overall presentation.",
+            "Contestants have to register latest by 10am 24th,April 2023",
             "Carrying your college i-card is mandatory, failing to it might result in disqualification",
             "The participating teams are required to select only one theme from the pre-defined list of themes provided below:",
             "Cultural Fusion: Participants can showcase a fusion of different cultures by incorporating traditional attire, patterns, or accessories from diverse regions or countries.",
@@ -100,18 +96,13 @@ export const carouselData1 = [
             "Time Limit :- 02 mins",
             "1 instrumentalist is allowed along with the participant, if required College will not provide any type of instrument, carry your own instruments if required.",
             "Participants will not be allowed to refer to the lyrics while singing.",
-            "Contestants have to make an audition clip of 2mins and send it latest by 20th,April 2023.",
+            "Contestants have to make an audition clip of 2mins and send it latest by 10am 24th,April 2023.",
             "Choice of song is open to the participants but the song should not have any slang or derogatory language.",
             "Using any kind of pre-recorded Background music will not be allowed.",
             "Entries will be entertained on the first come first serve basis",
             "One entry from one college will be allowed.",
             "Carrying your college i-card is mandatory, failing to it might result in disqualification.",
-            "Judgement Criteria:",
-            "Song Selection",
-            "Voice Quality and Clarity",
-            "Swar, Taal, Selection of Raga, Composition and General Impression",
-            "Appeal to the Audience",
-            "Decision of the Jury would be final"
+            "Judgement Criteria: Song Selection, Voice Quality and Clarity, Swar, Taal, Selection of Raga, Composition and General Impression, Appeal to the Audience, Decision of the Jury would be final",
         ],
         venue: "ATAL SABHAGAR(AS)",
         date: "28-04-2023",
@@ -135,23 +126,19 @@ export const carouselData1 = [
         slug: 'nrityangana',
         poster: nrityangnaLarge,
         tagline: "Solo Dance",
-        desc: "Nrityangana is a thrilling solo dance event that promises to showcase the best of dance talent. The event has specific rules in place to ensure a fair and enjoyable experience for allparticipants. With a time limit of 2 minutes, dancers are encouraged to bring their A-game and captivate the audience with their skills",
+        desc: "Nrityangana is a thrilling solo dance event that promises to showcase the best of dance talent. The event has specific rules in place to ensure a fair and enjoyable experience for all participants. With a time limit of 2 minutes, dancers are encouraged to bring their A-game and captivate the audience with their skills",
         rules: [
             "Time Limit :- 2min(marks will be deducted for exceeding the time limit)",
             "Any type of liquid, powder and substances which can make the stage greasy will not be allowed to be used as props.",
             "Obscene content will not be allowed.",
+            "Contestant can choose any genre from bollywood, hip hop, contemporary and classical",
             "Entries will be entertained on the first come first serve basis.",
-            "Contestants have to make an audition clip of 2min and send it latest by 20th,April 2023",
+            "Contestants have to make an audition clip of 2min and send it latest by 10am 24th,April 2023",
             "One entry from one college will be allowed.",
             "Track must be given 30 mins prior to the event",
             "Stationery/accessories will not be provided/ compensated by the institute",
             "Carrying your college i-card is mandatory, failing to it might result in disqualification",
-            "Judgement Criteria",
-            "Stage Coverage",
-            "Choreography & Expressions",
-            "Confidence",
-            "Props",
-            "Decision of the Jury would be Final"
+            "Judgement Criteria: Stage Coverage, Choreography & Expressions, Confidence, Props, Decision of the Jury would be Final",
         ],
         venue: "ATAL SABHAGAR(AS)",
         date: "28-04-2023",
@@ -183,20 +170,15 @@ export const carouselData1 = [
             "Time Limit :- 4min(marks will be deducted for exceeding the time limit)",
             "Any type of liquid, powder and substances which can make the stage greasy will not be allowed to be used as props.",
             "Any type of Obscenity will not be allowed.",
-            "Contestants can choose any genre(Classical, Bollywood, Hip hop, Contemporary).",
+            "Contestants can choose any genre(SemiClassical, Bollywood, Hip hop, Contemporary).",
             "Entries will be entertained on the first come first serve basis",
-            "Contestants have to make an audition clip of 2min and send it latest by 20th,April 2023",
+            "Contestants have to make an audition clip of 2min and send it latest by 10am 24th,April 2023",
             "Classical or folk dance styles are not allowed",
             "One entry from one college will be allowed",
             "Track must be given 30 mins prior to the event",
             "Stationery/accessories will not be provided/ compensated by the institute",
             "Carrying your college i-card is mandatory, failing to it might result in disqualification",
-            "Judgement Criteria",
-            "Stage Coverage",
-            "Choreography & Expressions",
-            "Confidence",
-            "Props",
-            "Decision of the Jury would be Final"
+            "Judgement Criteria: Stage Coverage, Choreography & Expressions, Confidence, Props, Decision of the Jury would be Final",
         ],
         venue: "ATAL SABHAGAR(AS)",
         date: "28-04-2023",
@@ -211,12 +193,125 @@ export const carouselData1 = [
         special: true,
         registrationLink: "https://tinyurl.com/nrityasangam23",
         day: 0,
-        winner: [
-            { name: 'Ajoy', id: 'Wi1223' },
-            { name: 'Shantu', id: 'Wi1223' },
-            { name: 'Promi', id: 'Wi1223' },
-        ]
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
     },
+    {
+        event_id: "2d639d86-e593-418f-be1e-27f0576d533d",
+        event_name: "JUGALBANDI",
+        poster: jugalbandiLarge,
+        slug: `jugalbandi`,
+        tagline: "Duet Singing",
+        desc: '"Jugalbandi" is an enchanting duet singing event that brings together the harmony of two voices to create a soul-stirring musical performance. The event encourages participants to bring their unique style, creativity, and vocal skills to create a magical duet singing performance that will leave the audience spellbound',
+        rules: [
+            "Time Limit :- 4min(marks will be deducted for exceeding the time limit)",
+            "2 instrumentalists are allowed along with the participant, if required College will not provide any type of instrument, carry your own instruments if required",
+            "Participants will not be allowed to refer to the lyrics while singing.",
+            "Contestants have to make an audition clip of 2mins and send it latest by 10am 24th,April 2023",
+            "Choice of song is open to the participants but the song should not have any slang or derogatory language.",
+            "Using any kind of pre-recorded Background music will not be allowed.",
+            "One entry from one college will be allowed.",
+            "Entries will be entertained on the first come first serve basis",
+            "Carrying your college i-card is mandatory, failing to it might result in disqualification",
+            "Judgement Criteria: Song Selection, Voice Quality & Clarity, (Swar, taal, selection of raga, composition and general impression), Appeal to the audience, Decision of the Jury would be Final",
+        ],
+        venue: "ATAL SABHAGAR(AS)",
+        date: "28-04-2023",
+        time: "1:30 PM to 2:30 PM",
+        // prize_pool: 3000,
+        team_size: 2,
+        poc: { RIYA: "8377015592", SRISHTI: "6387459413"},
+        banner:
+            jugalbandi,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/jugalbandi23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "2d639d86-e593-418f-be1e-27f0576d533e",
+        event_name: "JASHN-Ae-NAACH",
+        poster: jashnLarge,
+        slug: `jashn-ae-naach`,
+        tagline: "Group Dance",
+        desc: 'Get ready to rock the stage with "Jashn-Ae-Naach" - the ultimate group dance event that promises an exhilarating showcase of talent and energy! This event is all about bringing together a group of dancers to create a captivating performance that will leave the audience begging for more. With electrifying beats and synchronized moves, "Jashn-Ae-Naach" is the perfect platform for dancers to unleash their creativity and show off their teamwork.',
+        rules: [
+            "Time Limit :- 6-8 mins(marks will be deducted for exceeding the time limit)",
+            "Any type of liquid, powder and substances which can make the stage greasy will not be allowed to be used as props.",
+            "Any type of Obscenity will not be allowed.",
+            "Contestants can choose any genre from Bollywood, Hip hop, Contemporary",
+            "Contestants have to register latest by 10am 24th,April 2023",
+            "Folk,classical or semi classical genres are not allowed.",
+            "One entry from one college will be allowed..",
+            "Entries will be entertained on the first come first serve basis",
+            "Track must be given 30 mins prior to the event",
+            "Stationery/accessories will not be provided/ compensated by the institute.",
+            "Carrying your college i-card is mandatory, failing to it might result in disqualification",
+            "Judgement Criteria: Stage Coverage, Choreography & Expressions, Confidence, Props, Decision of the Jury would be Final",
+        ],
+        venue: "ATAL SABHAGAR(AS)",
+        date: "29-04-2023",
+        time: "10:00 AM to 11:00 AM",
+        // prize_pool: 3000,
+        team_size: 6-15,
+        poc: { DEV: "8171970884", SRISHTI: "6387459413"},
+        banner:
+            jashn,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Jashn-Ae-Naach23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    // {
+    //     event_id: "2d639d86-e593-418f-be1e-27f0576d533f",
+    //     event_name: "NAUTANKI GALI",
+    //     poster: jashnLarge,
+    //     slug: `nautankigali`,
+    //     tagline: "Skit",
+    //     desc: '"Nautanki Gali" is a captivating event that showcases the vibrant art form of "nukkad natak" or street theater, typically as part of a festival or cultural event. The event creates a unique and dynamic platform for performers to bring their theatrical talents to the streets and engage with the audience in an interactive and immersive manner.',
+    //     rules: [
+    //         "Time Limit :- - 15-20 min + 2min for setup(marks will be deducted for exceeding the time limit)",
+    //         "College will not be providing/responsible for arranging/keeping any kind of props (lathi, gulal, dupatta, etc) and instruments..",
+    //         "Usage of any kind of abusive content will lead to immediate disqualification.",
+    //         "In order to prioritize the respect and sensitivity towards all members of society and to avoid any potential harm to religious or political sentiments, teams must submit their scripts no later than April 24th, Failure to do so may result in disqualification from the event",
+    //         "Entries will be entertained on the first come first serve basis",
+    //         "Carrying your college i-card is mandatory, failing to it might result in disqualification",
+    //         "Judgement Criteria: Originality & creativity, Acting, Writing & Direction, Vocal and physical expressiveness, Audition interaction, Team Work, Theme & message, Overall impact, Use of space, Decision of the Jury would be Final",
+    //     ],
+    //     venue: "IN FRONT OF LIBRARY (IFL)",
+    //     date: "28-04-2023",
+    //     time: "11:30 PM to 1:30 PM",
+    //     // prize_pool: 3000,
+    //     team_size: 20,
+    //     poc: {TUSHAR: "9958794205", CHETAN:"9654360612"},
+    //     banner:
+    //         jashn,
+    //     approved: true,
+    //     disable: true,
+    //     special: true,
+    //     registrationLink: "https://tinyurl.com/Jashn-Ae-Naach23",
+    //     day: 1,
+    //     // winner: [
+    //     //     { name: 'Ajoy', id: 'Wi1223' },
+    //     //     { name: 'Shantu', id: 'Wi1223' },
+    //     //     { name: 'Promi', id: 'Wi1223' },
+    //     // ]
+    // },
 ];
 export const TeamMember = [
     {
