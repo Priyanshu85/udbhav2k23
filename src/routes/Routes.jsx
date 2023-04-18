@@ -22,6 +22,7 @@ const Routes = () => {
         {
           path: "/about",
           element: <Inbuilding />,
+          // element:<About/>
         },
         {
           path: "/teams",
