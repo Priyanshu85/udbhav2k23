@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Developers.scss'
 import Priyanshu from '../../assets/devs/Priyanshu.jpeg'
 import Aneesh from '../../assets/Teams/Team/aneesh.webp'
@@ -6,6 +6,9 @@ import Mridul from '../../assets/devs/mridul.jpeg';
 import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 
 const Developers = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="Team">
     <header>
@@ -45,17 +48,11 @@ const Developers = () => {
           <img src={Mridul} alt="" />
           <figcaption>Mridul Tiwari</figcaption>
           <div className='flex'>
-           <a href='#_' target='_blank'><AiFillInstagram className='text-3xl'/></a>
+           <a href='https://instagram.com/mridulti' target='_blank'><AiFillInstagram className='text-3xl'/></a>
            <a href='https://github.com/MridulTi' target='_blank'><AiFillGithub className='text-3xl ml-2'/></a>
            </div>
         </figure>
       </div>
-      {/* <div className="profile">
-        <figure data-value="Frontend Developer">
-          <img src={require("../../assets/Dhruv.jpg")} alt="" />
-          <figcaption>Dhruv Varshney</figcaption>
-        </figure>
-      </div> */}
     </main>
   </div>
   )

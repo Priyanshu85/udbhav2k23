@@ -6,7 +6,7 @@ import MainLayout from "../layout/MainLayout";
 
 //pages
 import { Home, About, Events, Teams, SingleEvent,Developers } from '../pages';
-import Inbuilding from "../components/shared/Inbuilding";
+// import Inbuilding from "../components/shared/Inbuilding";
 
 
 const Routes = () => {
@@ -21,8 +21,8 @@ const Routes = () => {
         },
         {
           path: "/about",
-          element: <Inbuilding />,
-          // element:<About/>
+          // element: <Inbuilding />,
+          element:<About/>
         },
         {
           path: "/teams",

@@ -1,18 +1,18 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Spline from "@splinetool/react-spline";
 import backgroundImage from "../../assets/background.jpg";
 import "./Home.css";
 import Countdown from "../../components/shared/Countdown";
-import ParticleBackground from "../../components/shared/ParticleBackground";
 import Teaser from "../../components/Home/Teaser";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       className="min-h-screen lg:w-full bg-center lg:bg-top" style={{
         backgroundImage: `url(${backgroundImage})`,
-        // backgroundSize: "cover",
-        // backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
     >

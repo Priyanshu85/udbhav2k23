@@ -7,6 +7,7 @@ import sargamLarge from '../assets/events/sargamLarge.webp';
 import graziaLarge from '../assets/events/GraziaLarge.webp';
 import jugalbandiLarge from '../assets/events/jugalbandiLarge.webp'
 import jashnLarge from '../assets/events/jashn-e-nachLarge.webp'
+import RajneetiLarge from '../assets/events/RajneetiLarge.webp';
 
 // events
 import grazia from '../assets/events/Grazia.webp'
@@ -15,7 +16,8 @@ import nrityaSangam from '../assets/events/nritya_sargam.webp'
 import sargam from '../assets/events/sargam.webp';
 import jugalbandi from '../assets/events/jugalbandi.webp'
 import jashn from '../assets/events/jashn.webp'
-
+import Rajneeti from '../assets/events/Rejneeti.webp'
+//Teams
 import aditi from "../assets/Teams/Team/aditi.webp"
 import ayush from "../assets/Teams/Team/ayush.webp"
 import chetan from "../assets/Teams/Team/chetan.webp"
@@ -262,7 +264,7 @@ export const carouselData1 = [
         date: "29-04-2023",
         time: "10:00 AM to 11:00 AM",
         // prize_pool: 3000,
-        team_size: 6-15,
+        team_size: "6 to 15",
         poc: { DEV: "8171970884", SRISHTI: "6387459413"},
         banner:
             jashn,
@@ -277,34 +279,73 @@ export const carouselData1 = [
         //     { name: 'Promi', id: 'Wi1223' },
         // ]
     },
+    {
+        event_id: "23444kjbd-ffsdkhkf-4243b-3242",
+        event_name: "RAJNEETI",
+        poster: Rajneeti,
+        slug: `rajneeti`,
+        tagline: "",
+        desc: 'Rajneeti strives to make students think critically and creatively to solve real challenges faced/being faced by India with their optimal solutions. It aims to encourage young minds to come up with innovative solutions and contribute to the politics of the nation. As the name suggests, it is a political event in which each team will be representing a party.',
+        rules: [
+            "Teams made up of members that represent various political parties are formed.",
+            "Each political party should have two representatives present their platform",
+            "There are three rounds in the competition:",
+            "Round 1: Two candidates from each political party must deliver theirmanifestos for the election; the presentation of your manifesto should be no longer than five minutes.",
+            "Round 2: The participants will be shown a contentious or controversial film and asked to share their opinions on it.",
+            "Round 3: One of the team members has to deliver a speech at UNO as a representative of India, the time limit is 2 min.",
+            "Round 4: Only the top three teams advance to the final round, which will be a news conference-style round in which audience members can question the competitors about their pledges and positions.",
+            "Any improper, abusive, or defamatory language is absolutely forbidden.",
+            "Judges’ judgment will be final.",
+        ],
+        venue: "ATAL SABHAGAR(AS)",
+        date: "28-04-2023",
+        time: "5:30 PM to 7:00 PM",
+        // prize_pool: 3000,
+        team_size: 4,
+        poc: { PRATEEK: "870728119", SIDDHARTH: "7379412633"},
+        banner:
+            RajneetiLarge,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
     // {
-    //     event_id: "2d639d86-e593-418f-be1e-27f0576d533f",
-    //     event_name: "NAUTANKI GALI",
-    //     poster: jashnLarge,
-    //     slug: `nautankigali`,
-    //     tagline: "Skit",
-    //     desc: '"Nautanki Gali" is a captivating event that showcases the vibrant art form of "nukkad natak" or street theater, typically as part of a festival or cultural event. The event creates a unique and dynamic platform for performers to bring their theatrical talents to the streets and engage with the audience in an interactive and immersive manner.',
+    //     event_id: "dbwehjjr342hb234-2342ewe-3424",
+    //     event_name: "RANGMANCH",
+    //     poster: ,
+    //     slug: `rangmanch`,
+    //     tagline: "SKIT",
+    //     desc: '"Rangmanch" is an exhilarating event that brings the art of skit theater to life. It is a dynamic and creative platform where actors and performers take the stage to showcase their theatrical skills through skits, a form of short comedic or dramatic performances that rely on clever scripts, exaggerated gestures, and expressive facial expressions.',
     //     rules: [
-    //         "Time Limit :- - 15-20 min + 2min for setup(marks will be deducted for exceeding the time limit)",
-    //         "College will not be providing/responsible for arranging/keeping any kind of props (lathi, gulal, dupatta, etc) and instruments..",
-    //         "Usage of any kind of abusive content will lead to immediate disqualification.",
-    //         "In order to prioritize the respect and sensitivity towards all members of society and to avoid any potential harm to religious or political sentiments, teams must submit their scripts no later than April 24th, Failure to do so may result in disqualification from the event",
-    //         "Entries will be entertained on the first come first serve basis",
-    //         "Carrying your college i-card is mandatory, failing to it might result in disqualification",
-    //         "Judgement Criteria: Originality & creativity, Acting, Writing & Direction, Vocal and physical expressiveness, Audition interaction, Team Work, Theme & message, Overall impact, Use of space, Decision of the Jury would be Final",
+    //         "Time limits :- 15-20 min + 2min for stage setup(marks will be deducted for exceeding the time limit)",
+    //         "Team members :- 3-15 (excluding people who handling light and sound)",
+    //         "Any type of liquid, powder and substances which can make the stage greasy will not be allowed to be used as props.",
+    //         "Chair and table (only 2) will be provided by the organizing committee, if informed on prior basis.",
+    //         "Usage of any kind of vulgar language, scene, action will lead to immediate disqualification.",
+    //         "In order to prioritize the respect and sensitivity towards all members of society and to avoid any potential harm to religious or political sentiments, teams must submit their scripts no later than April 24th, Failure to do so may result in disqualification from the event.",
+    //         "Entries will be entertained on the first come first serve basis.",
+    //         "Carrying your college i-card is mandatory, failing to it might result in disqualification.",
+    //         "Judgement Criteria: Originality & creativity, Acting, Writing & Direction, Stage coverage, Props and costumes, Theme & message,Decision of the jury would be final.",
     //     ],
-    //     venue: "IN FRONT OF LIBRARY (IFL)",
-    //     date: "28-04-2023",
-    //     time: "11:30 PM to 1:30 PM",
+    //     venue: "ATAL SABHAGAR(AS)",
+    //     date: "29-04-2023",
+    //     time: "12:00 PM to 1:00 PM",
     //     // prize_pool: 3000,
-    //     team_size: 20,
-    //     poc: {TUSHAR: "9958794205", CHETAN:"9654360612"},
+    //     team_size: "3 to 15",
+    //     poc: { TUSHAR: "9958794205", CHETAN: "9654360612"},
     //     banner:
-    //         jashn,
+    //         ,
     //     approved: true,
     //     disable: true,
     //     special: true,
-    //     registrationLink: "https://tinyurl.com/Jashn-Ae-Naach23",
+    //     registrationLink: "",
     //     day: 1,
     //     // winner: [
     //     //     { name: 'Ajoy', id: 'Wi1223' },

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import HeroCarousel from '../../components/Events/HeroCarousel'
 import { carouselData1 } from '../../data/data';
 
@@ -7,6 +7,9 @@ import bgPattern from '../../assets/events/pattern.webp';
 import EventsCard from '../../components/Events/EventsCard';
 
 const Events = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const [selectedDay, setSelectedDay] = useState(0);
 
