@@ -14,6 +14,8 @@ import Nautanki from "../assets/events/NAUTANKIGALI_2.webp"
 import Nautankibanner from "../assets/events/NAUTANKIGALI_1.webp"
 import SilentCircus from "../assets/events/SILENTCIRCUS_2.webp"
 import SCbanner from "../assets/events/SILENTCIRCUS_1.webp"
+import battleofbandsLarge from "../assets/events/battleofbandsLarge.webp"
+
 
 // events
 import grazia from '../assets/events/Grazia.webp'
@@ -23,6 +25,7 @@ import sargam from '../assets/events/sargam.webp';
 import jugalbandi from '../assets/events/jugalbandi.webp'
 import jashn from '../assets/events/jashn.webp'
 import Rajneeti from '../assets/events/Rejneeti.webp'
+import battleofbands from '../assets/events/battleofbands.webp'
 //Teams
 import aditi from "../assets/Teams/Team/aditi.webp"
 import ayush from "../assets/Teams/Team/ayush.webp"
@@ -48,7 +51,7 @@ import tushar from "../assets/Teams/Team/tushar.webp"
 import sukrit from "../assets/Teams/Team/sukrit.webp"
 import aneesh from "../assets/Teams/Team/aneesh.webp"
 import shresth from "../assets/Teams/Team/shresth.webp"
-import sachin from "../assets/Teams/Team/sachin.webp"
+
 
 
 
@@ -78,7 +81,7 @@ export const carouselData1 = [
         date: "28-04-2023",
         time: "7:30 PM to 9:00 PM",
         // prize_pool: 10000,
-        team_size: '7 to 10',
+        team_size: '7-10',
         poc: { SRISHTI: "6387459413", SIDDHANT: "838944491" },
         banner:
             grazia,
@@ -270,7 +273,7 @@ export const carouselData1 = [
         date: "29-04-2023",
         time: "10:00 AM to 11:00 AM",
         // prize_pool: 3000,
-        team_size: "6 to 15",
+        team_size: "6-15",
         poc: { DEV: "8171970884", SRISHTI: "6387459413"},
         banner:
             jashn,
@@ -314,7 +317,7 @@ export const carouselData1 = [
         approved: true,
         disable: true,
         special: true,
-        registrationLink: "",
+        registrationLink: "https://tinyurl.com/rajneeti23",
         day: 0,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
@@ -422,7 +425,42 @@ export const carouselData1 = [
         approved: true,
         disable: true,
         special: true,
-        registrationLink: "",
+        registrationLink: "https://tinyurl.com/SILENTCIRCUS23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "23444kjbd-ffsdkhkf-4243b-32431",
+        event_name: "BATTLE OF BANDS",
+        poster: battleofbands,
+        slug: `battleofbands`,
+        tagline: "",
+        desc: '"The "Clash of Titans" is a high-octane event that brings together the best bands from across the region to battle it out in an electrifying showdown. Bands with diverse musical genres, ranging from rock, metal, pop, punk, and more, compete against each other',
+        rules: [
+            "Maximum of 10 and minimum of 4 members per team are allowed.",
+            "Each band can perform eastern /western or both.",
+            "Time limit: 5 minutes setup time + 8-12 minutes playing time, Marks will be deducted for every extra minute.",
+            "Use of pre recorded music (e.g. sequences, keyboard rhythm, guitar loops) will result in disqualification.",
+            "No instrument will be provided by the organizer",
+            "Carrying your college i-card is mandatory, failing to it might result in disqualification.",
+            "Judgement Criteria: Originality & Creativity, Technique Proficiency, Co-ordination of Team Members, Overall impact, Audience engagement, Decision of the jury would be final"
+        ],
+        venue: "Main Stage(MS)",
+        date: "28-04-2023",
+        time: "05:30 PM – 07:00 PM",
+        // prize_pool: 3000,
+        team_size: "4-10",
+        poc: { RIYA: "8377015592",SIDDHANT: "9838944491"},
+        banner:
+            battleofbandsLarge,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/battleofbands23",
         day: 0,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },

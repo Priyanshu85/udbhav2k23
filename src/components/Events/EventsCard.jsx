@@ -1,10 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 // assets
 import ticketSVG from '../../assets/events/ticketBack.svg';
 import { Link } from 'react-router-dom';
 
 const EventsCard = ({ event }) => {
+    const navigate = useNavigate();
     const { banner, slug, registrationLink } = event;
     const linkHandler = () => {
         if (!registrationLink) return;
@@ -13,7 +15,7 @@ const EventsCard = ({ event }) => {
     return (
         <div className='rounded-xl bg-[#ffa50054] bg-opacity-10 p-6'>
             <div className='shadow-[0px_0px_20px_3px_#ffffff61] overflow-hidden rounded-xl transition-[filter] duration-150'>
-                <img src={banner} alt='event thumbnail' className='w-full h-auto' />
+                <img src={banner} alt='event thumbnail' className='w-full h-auto cursor-pointer' onClick={() => navigate(`/events/${slug}`)} />
             </div>
             <div className="flex mt-7 relative">
                 <img src={ticketSVG} />

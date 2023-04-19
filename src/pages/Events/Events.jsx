@@ -28,13 +28,13 @@ const Events = () => {
           {eventsData.map((event, index) => <EventsCard event={event} key={index} />)}
         </div>
         <div className='flex gap-x-2 justify-center mt-14'>
-          <button onClick={() => setSelectedDay(0)} disabled={selectedDay === 0} type="button" class="disabled:opacity-80 flex justify-center items-center gap-x-2 rounded bg-[#D57E0A] py-2 px-3 text-white font-SquadaOne">
+          <button onClick={() => setSelectedDay(0)} disabled={selectedDay === 0} type="button" className="disabled:opacity-80 flex justify-center items-center gap-x-2 rounded bg-[#D57E0A] py-2 px-3 text-white font-SquadaOne">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
             </svg>
             Prev Day Events
           </button>
-          <button onClick={() => setSelectedDay(1)} disabled={selectedDay === 1} type="button" class="disabled:opacity-80 flex justify-center items-center gap-x-2 rounded bg-[#D57E0A] py-2 px-3 text-white font-SquadaOne">
+          <button onClick={() => setSelectedDay(1)} disabled={selectedDay === 1} type="button" className="disabled:opacity-80 flex justify-center items-center gap-x-2 rounded bg-[#D57E0A] py-2 px-3 text-white font-SquadaOne">
             Next Day Events
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
