@@ -8,6 +8,12 @@ import graziaLarge from '../assets/events/GraziaLarge.webp';
 import jugalbandiLarge from '../assets/events/jugalbandiLarge.webp'
 import jashnLarge from '../assets/events/jashn-e-nachLarge.webp'
 import RajneetiLarge from '../assets/events/RajneetiLarge.webp';
+import Farzibanner from "../assets/events/farzi_1.webp"
+import Farzi from "../assets/events/farzi_mushyare.webp"
+import Nautanki from "../assets/events/NAUTANKIGALI_2.webp"
+import Nautankibanner from "../assets/events/NAUTANKIGALI_1.webp"
+import SilentCircus from "../assets/events/SILENTCIRCUS_2.webp"
+import SCbanner from "../assets/events/SILENTCIRCUS_1.webp"
 
 // events
 import grazia from '../assets/events/Grazia.webp'
@@ -305,6 +311,114 @@ export const carouselData1 = [
         poc: { PRATEEK: "870728119", SIDDHARTH: "7379412633"},
         banner:
             RajneetiLarge,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "23444kjbd-ffsdkhkf-4243b-3243",
+        event_name: "FARZI",
+        poster: Farzibanner,
+        slug: `farzi`,
+        tagline: "",
+        desc: "Get ready to reveal your covered portion of your sentence framing in a humorous way to entertain the audience as well as your fellow participants.The stage is set for all the humorous fellows to show their amusing side,engross the audience, and also win some exciting prizes. Shayaris teach youthe way of life, but Farzi Shayaris teach you how not to live your life. In eachteam, three heartbroken farzi shayars will appear and pour their hearts out inthe shayaris they deliver, ranging from having a crush on your best friend'ssister to finding your girlfriend's father's weird behaviors. In these shayaris,above all, the farziness will be touching new heights.",
+        rules: [
+            "This is a group event, conducted in multiple rounds.",
+            "Participants will come up with a number of 3 members in their respective teams.",
+            "In each round, the team will be given a topic on which teams have to frame and recite a Shayari.",
+            "The teams can discuss to present the best possible Shayari in the 1 min.",
+            "At the end of the round to form the team/s with the maximum points will move to the next round.",
+            "1 point will be deducted if any kind of offensive comments, foul language or personal attacks is found in the content framed by the team.",
+            "Immediate disqualification if content is abusive or hurting any sentimental or religious belief.",
+        ],
+        venue: "ATAL SABHAGAR(AS)",
+        date: "29-04-2023",
+        time: "11:00 AM – 12:00 PM",
+        // prize_pool: 3000,
+        team_size: 3,
+        poc: { PRATEEK: "870728119", SIDDHARTH: "7379412633"},
+        banner:
+            Farzi,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/farzimushaira23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "23444kjbd-ffsdkhkf-4243b-3243",
+        event_name: "NAUTANKI GALI",
+        poster: Nautanki,
+        slug: `nautankigali`,
+        tagline: "",
+        desc: '"Nautanki Gali" is a captivating event that showcases the vibrant art form of "nukkad natak" or street theater, typically as part of a festival or cultural event. The event creates a unique and dynamic platform for performers to bring their theatrical talents to the streets and engage with the audience in an interactive and immersive manner.',
+        rules: [
+           "Time limits :- 15-20 min + 2min for setup(marks will be deducted for exceeding the time limit)",
+           "Team members :- 20 members in a single team.",
+            "College will not be providing/responsible for arranging/keeping any kind of props (lathi, gulal, dupatta, etc) and instruments..",
+            "Usage of any kind of abusive content will lead to immediate disqualification.",
+            "In order to prioritize the respect and sensitivity towards all members of society and to avoid any potential harm to religious or political sentiments, teams must submit their scripts no later than April 24th, Failure to do so may result in disqualification from the event",
+            "Entries will be entertained on the first come first serve basis",
+            "Carrying your college i-card is mandatory, failing to it might result indisqualification.",
+        ],
+        venue: "In Front of Library (IFL)",
+        date: "28-04-2023",
+        time: "11:30 AM – 01:30 PM",
+        // prize_pool: 3000,
+        team_size: 20,
+        poc: { TUSHAR: "9958794205", CHETAN: "9654360612"},
+        banner:
+            Nautankibanner,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/NautankiGali23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "23444kjbd-ffsdkhkf-4243b-3243",
+        event_name: "SILENT CIRCUS",
+        poster: SilentCircus,
+        slug: `silentcircus`,
+        tagline: "",
+        desc: 'The "Silent Circus" is a mesmerizing festival celebrating the art of mime. Mime artists from around the world showcase their talent through solo and group performances, conveying powerful emotions and narratives using gestures, facial expressions, and body language',
+        rules: [
+            "Time limits :- 08-10 min + 2min for stage setup(marks will be deducted for exceeding the time limit)",
+            "Team members :- 5-10 (excluding people who handling light and sound)",
+            "Any type of liquid, powder and substances which can make the stage greasy will not be allowed to be used.",
+            "Usage of any kind of vulgar scene, action will lead to immediate disqualification",
+            "Entries will be entertained on the first come first serve basis.",
+            "No verbal monologues or digital audio allowed; only silent gestures permitted in this event.",
+            "Usage of any kind of props will lead to immediate disqualification.",
+            "In order to prioritize the respect and sensitivity towards all members of society",
+            "Carrying your college i-card is mandatory, failing to it might result in disqualification.",
+
+        ],
+        venue: "Atal Sabhagar(AS)",
+        date: "28-04-2023",
+        time: "03:30 PM – 04:30 PM",
+        // prize_pool: 3000,
+        team_size: 20,
+        poc: { TUSHAR: "9958794205", CHETAN: "9654360612"},
+        banner:
+            SCbanner,
         approved: true,
         disable: true,
         special: true,
