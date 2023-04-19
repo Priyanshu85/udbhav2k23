@@ -1,0 +1,13 @@
+.aboutus{
+    font-family: 'Raleway',sans-serif;
+}
+.hero-about{
+    height: 90vh;
+    object-fit: cover;
+}
+.load-image{
+    transition: all 0.2s ease-in;
+}
+.load-image:hover{
+    transform: scale(1.1);
+}
