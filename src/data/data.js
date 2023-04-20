@@ -15,6 +15,10 @@ import Nautankibanner from "../assets/events/NAUTANKIGALI_1.webp"
 import SilentCircus from "../assets/events/SILENTCIRCUS_2.webp"
 import SCbanner from "../assets/events/SILENTCIRCUS_1.webp"
 import battleofbandsLarge from "../assets/events/battleofbandsLarge.webp"
+import rangmanchLarge from "../assets/events/rangmanchLarge.webp"
+import shutterLarge from '../assets/events/shutterLarge.webp'
+import webdevLarge from '../assets/events/webdevLarge.webp'
+import designfusionLarge from '../assets/events/designfusionLarge.webp'
 
 
 // events
@@ -26,6 +30,14 @@ import jugalbandi from '../assets/events/jugalbandi.webp'
 import jashn from '../assets/events/jashn.webp'
 import Rajneeti from '../assets/events/Rejneeti.webp'
 import battleofbands from '../assets/events/battleofbands.webp'
+import rangmanch from "../assets/events/rangmanch.webp"
+import choirofguns from "../assets/events/choirofguns.webp"
+import moherangde from "../assets/events/moherangde.webp"
+import webdev from "../assets/events/webdev.webp"
+import shutter from '../assets/events/shutter.webp'
+import designfusion from '../assets/events/designfusion.webp'
+
+
 //Teams
 import aditi from "../assets/Teams/Team/aditi.webp"
 import ayush from "../assets/Teams/Team/ayush.webp"
@@ -468,37 +480,208 @@ export const carouselData1 = [
         //     { name: 'Promi', id: 'Wi1223' },
         // ]
     },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-3424",
+        event_name: "RANGMANCH",
+        poster: rangmanchLarge,
+        slug: `rangmanch`,
+        tagline: "SKIT",
+        desc: '"Rangmanch" is an exhilarating event that brings the art of skit theater to life. It is a dynamic and creative platform where actors and performers take the stage to showcase their theatrical skills through skits, a form of short comedic or dramatic performances that rely on clever scripts, exaggerated gestures, and expressive facial expressions.',
+        rules: [
+            "Time limits :- 15-20 min + 2min for stage setup(marks will be deducted for exceeding the time limit)",
+            "Team members :- 3-15 (excluding people who handling light and sound)",
+            "Any type of liquid, powder and substances which can make the stage greasy will not be allowed to be used as props.",
+            "Chair and table (only 2) will be provided by the organizing committee, if informed on prior basis.",
+            "Usage of any kind of vulgar language, scene, action will lead to immediate disqualification.",
+            "In order to prioritize the respect and sensitivity towards all members of society and to avoid any potential harm to religious or political sentiments, teams must submit their scripts no later than April 24th, Failure to do so may result in disqualification from the event.",
+            "Entries will be entertained on the first come first serve basis.",
+            "Carrying your college i-card is mandatory, failing to it might result in disqualification.",
+            "Judgement Criteria: Originality & creativity, Acting, Writing & Direction, Stage coverage, Props and costumes, Theme & message,Decision of the jury would be final.",
+        ],
+        venue: "ATAL SABHAGAR(AS)",
+        date: "29-04-2023",
+        time: "12:00 PM to 1:00 PM",
+        // prize_pool: 3000,
+        team_size: "3 to 15",
+        poc: { TUSHAR: "9958794205", CHETAN: "9654360612"},
+        banner:
+            rangmanch,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/rangmanch23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34256",
+        event_name: "CHOIR OF GUNS",
+        slug: `choirofguns`,
+        tagline: "",
+        desc: 'UDBHAV brings you its gaming tournament: Battleground Mobile India in its Classic Battle. Compete with others to win exciting prizes!',
+        rules: [
+            "Registration : FREE!",
+            "No Emulators/Controllers allowed.",
+            "In case of multiple registrations, teams will be contacted through their leaders and by mutual understanding.",
+            "Players are required to take screenshots of their match results and video recording in case they find someone cheating/teaming in the match and they could submit it to the event organizers.",
+            "Core Team has the right to ban/kick any player without prior notice.",
+            "Tournament will be a Classic Battle Match.",
+            "Maps selected will be notified to the participants before the match.",
+            "Following Points System will be followed:",
+            "Point system: Kill - 1 point, 1st - 15 points ● 2nd - 12 points ● 3rd - 10 points ● 4th - 8 points, 5th - 6 points ● 6th - 4 points ● 7th - 2 points ● 8th - 12th - 1 point, 13th - 25th - 0 point",
+            "Team with maximum points will be declared as the winner",
+            "Any two maps will be played out of the following maps: Erangel | Miramar | Sanhok | Vikendi"
+        ],
+        venue: "Lab 1,2,3",
+        date: "28-04-2023",
+        time: "12:00 PM to 1:00 PM",
+        // prize_pool: 3000,
+        team_size: "4",
+        poc: { TEJAS: "7007265108"},
+        banner:
+            choirofguns,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/CHOIROFGUNS23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34257",
+        event_name: "Mohe Rang De",
+        slug: `moherangde`,
+        tagline: "",
+        desc: 'The activity of covering a persons face with paint, or drawing designs on it as a decoration',
+        rules: [
+            "It Is a Team Event & There can be only Two participants in a team. ",
+            "Materials required will be provided to the Participants.",
+            "Digital media in painting is not allowed.",
+            "The decision of the judges will be considered final.",
+        ],
+        venue: "Library",
+        date: "29-04-2023",
+        time: "11:00 PM to 12:00 PM",
+        // prize_pool: 3000,
+        team_size: "2",
+        poc: { Tarun: "7900881101",Swati: "8303751023"},
+        banner:
+            moherangde,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/MoheRangDe23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34258",
+        event_name: "WEB DEV",
+        slug: `webdev`,
+        poster:webdevLarge,
+        tagline: "",
+        desc: 'Hey folks! If you want your web page development skills to bluster in college. We have an event for you, so swot up your HTML/CSS knowledge and participate in WEBDEV!',
+        rules: [
+            "Registration : FREE!",
+            "Platform: STACKBLITZ",
+            "Time Limit: 50 Minutes",
+            "Participants will be given webpages on the spot and they have to create it within the stipulated time.",
+            "Internet can be used only for reference purposes.",
+            "Focus on the design part.",
+            "Participants with minimum lines of code will be given priority and bonus points.",
+            "Functionality of web page such as input box,hover effects, onclicks should be included.",
+            "There will be a bonus question 5 minutes before the completion of the contest.",
+            "If any kind of cheating or misbehavior is done by a participant with an organizer it will straight lead to disqualification."
+            ],
+        venue: "Lab 1,2,3",
+        date: "28-04-2023",
+        time: "01:30 PM to 02:30 PM",
+        // prize_pool: 3000,
+        team_size: "2",
+        poc: { TEJAS: "7007265108"},
+        banner:
+            webdev,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Webdev2k23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34259",
+        event_name: "SHUTTER ISLAND",
+        slug: `shutterisland`,
+        poster:shutterLarge,
+        tagline: "",
+        desc: 'If you want to flex your photography and editing skills? Charge your cameras and brush up your editing skills because this event is for you! During day 1 at random times, a person from the UDBHAV team will appear holding a sign board with the text “click a picture of the mannequin in a neon t-shirt roaming in the college so right now and edit it on a picture of an island”. The first person to complete the task first and show their edit to the person holding the sign will win a prize.',
+        rules: [
+            "Registration Free",
+            "Focus on the design part.",
+            "Your edit does not need to be perfect, but it should be clear enough to show that it is of the mannequin.",
+            "The first person who shows their edit will win the prize.",
+            ],
+        venue: "IPEC",
+        date: "28-04-2023",
+        time: "Whole Day",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: { Abhishek : "9999718630",Samana : "9354027834"},
+        banner:
+            shutter,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
     // {
-    //     event_id: "dbwehjjr342hb234-2342ewe-3424",
-    //     event_name: "RANGMANCH",
-    //     poster: ,
-    //     slug: `rangmanch`,
-    //     tagline: "SKIT",
-    //     desc: '"Rangmanch" is an exhilarating event that brings the art of skit theater to life. It is a dynamic and creative platform where actors and performers take the stage to showcase their theatrical skills through skits, a form of short comedic or dramatic performances that rely on clever scripts, exaggerated gestures, and expressive facial expressions.',
+    //     event_id: "dbwehjjr342hb234-2342ewe-34260",
+    //     event_name: "DESIGN FUSION",
+    //     slug: `designfusion`,
+    //     poster:designfusionLarge,
+    //     tagline: "",
+    //     desc: 'If you want to flex your photography and editing skills? Charge your cameras and brush up your editing skills because this event is for you! During day 1 at random times, a person from the UDBHAV team will appear holding a sign board with the text “click a picture of the mannequin in a neon t-shirt roaming in the college so right now and edit it on a picture of an island”. The first person to complete the task first and show their edit to the person holding the sign will win a prize.',
     //     rules: [
-    //         "Time limits :- 15-20 min + 2min for stage setup(marks will be deducted for exceeding the time limit)",
-    //         "Team members :- 3-15 (excluding people who handling light and sound)",
-    //         "Any type of liquid, powder and substances which can make the stage greasy will not be allowed to be used as props.",
-    //         "Chair and table (only 2) will be provided by the organizing committee, if informed on prior basis.",
-    //         "Usage of any kind of vulgar language, scene, action will lead to immediate disqualification.",
-    //         "In order to prioritize the respect and sensitivity towards all members of society and to avoid any potential harm to religious or political sentiments, teams must submit their scripts no later than April 24th, Failure to do so may result in disqualification from the event.",
-    //         "Entries will be entertained on the first come first serve basis.",
-    //         "Carrying your college i-card is mandatory, failing to it might result in disqualification.",
-    //         "Judgement Criteria: Originality & creativity, Acting, Writing & Direction, Stage coverage, Props and costumes, Theme & message,Decision of the jury would be final.",
-    //     ],
-    //     venue: "ATAL SABHAGAR(AS)",
-    //     date: "29-04-2023",
-    //     time: "12:00 PM to 1:00 PM",
+    //         "Registration Free",
+    //         "Focus on the design part.",
+    //         "Your edit does not need to be perfect, but it should be clear enough to show that it is of the mannequin.",
+    //         "The first person who shows their edit will win the prize.",
+    //         ],
+    //     venue: "Lab 1,2,3",
+    //     date: "28-04-2023",
+    //     time: "Whole Day",
     //     // prize_pool: 3000,
-    //     team_size: "3 to 15",
-    //     poc: { TUSHAR: "9958794205", CHETAN: "9654360612"},
+    //     team_size: "1",
+    //     poc: { Abhishek : "9999718630",Samana : "9354027834"},
     //     banner:
-    //         ,
+    //         designfusion,
     //     approved: true,
     //     disable: true,
     //     special: true,
-    //     registrationLink: "",
-    //     day: 1,
+    //     registrationLink: "https://tinyurl.com/DesignFusion23",
+    //     day: 0,
     //     // winner: [
     //     //     { name: 'Ajoy', id: 'Wi1223' },
     //     //     { name: 'Shantu', id: 'Wi1223' },

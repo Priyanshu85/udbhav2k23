@@ -98,7 +98,7 @@ const Teams = () => {
               </div>
             </div>
             <div>
-              <LazyLoadImage src={HEROsvg} alt="Hero-svg" className="HERO-img z-10" />
+              <img src={HEROsvg} alt="Hero-svg" className="HERO-img z-10" />
             </div>
           </div>
           <div className="grid grid-rows-1 xl:h-48 pb-10 justify-center">
