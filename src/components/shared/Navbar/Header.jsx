@@ -59,7 +59,7 @@ const Header = () => {
       </button>
       <header ref={headerRef} className={`${sticky && 'lg:bg-[#222831] lg:bg-opacity-20 lg:backdrop-blur-lg'} ${mobileMenu ? 'max-lg:translate-x-0' : 'max-lg:-translate-x-full'} z-[1000] fixed top-0 left-0 max-lg:w-[45%] lg:w-full max-lg:h-screen duration-300 `}>
         <div className="lg:container max-lg:h-full lg:mx-0 mx-auto lg:px-5 mb-2">
-          <div className="flex max-lg:h-full max-lg:flex-col max-lg:justify-evenly items-center max-lg:gap-y-3 justify-between py-2 place-items-center max-lg:mt-4 mx-auto ">
+          <div className="flex max-lg:h-full max-lg:flex-col max-lg:justify-center items-center max-lg:gap-y-10 justify-between py-2 place-items-center mx-auto ">
             <img src={ipec} alt='ipec-logo' className='w-56 mr-44 lg:flex hidden' />
             <div className={`max-lg:order-2 lg:w-4/12 max-lg:py-6`}>
               <ul id="menu" className="flex max-lg:flex-col max-lg:gap-5 max-lg:items-center z-50 flex-row gap-x-2">
