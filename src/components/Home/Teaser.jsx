@@ -11,6 +11,7 @@ const Teaser = () => {
                 </div>
             </div>
         </section>
+        
     );
 }
 

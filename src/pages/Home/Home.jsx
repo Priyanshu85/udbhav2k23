@@ -5,6 +5,7 @@ import "./Home.css";
 import Countdown from "../../components/shared/Countdown";
 import Teaser from "../../components/Home/Teaser";
 
+
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
