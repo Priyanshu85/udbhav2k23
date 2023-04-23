@@ -24,6 +24,8 @@ import representLarge from '../assets/events/representLarge.webp'
 import recapLarge from '../assets/events/recapLarge.webp'
 import quizLarge from '../assets/events/quizLarge.webp'
 import cogsLarge from '../assets/events/cogsLarge.webp'
+import putcLarge from '../assets/events/putcLarge.webp'
+import dtLarge from '../assets/events/dtLarge.webp'
 
 
 // events
@@ -52,6 +54,15 @@ import tff from '../assets/events/tff.webp'
 import rd from '../assets/events/rd.webp'
 import bitb from '../assets/events/bitb.webp'
 import ws from '../assets/events/ws.webp'
+import tipod from '../assets/events/tipod.webp'
+import funtakshari from '../assets/events/funtakshari.webp'
+import rangspardha from '../assets/events/rangspardha.webp'
+import euphony from '../assets/events/euphony.webp'
+import tussle from '../assets/events/tussle.webp'
+import equipose from '../assets/events/equipose.webp'
+import handmandala from '../assets/events/handman.webp'
+import luckydip from '../assets/events/luckydip.webp'
+import toj from '../assets/events/toj.webp'
 
 
 //Teams
@@ -962,7 +973,10 @@ export const carouselData1 = [
             " Based on their performance in the quiz bee, the top-5 teams will compete in the Finals.",
             " In case of a tie at the end of the finals between two teams, their quiz bee score will be used for tie-breaking.",
             " The quiz will be divided into 2 rounds. Round 1 and Round 2.",
-            " The contestants should be at the place of the Competition 10 minutes prior the scheduled time and immediate disqualification will be implemented."
+            " The contestants should be at the place of the Competition 10 minutes prior the scheduled time and immediate disqualification will be implemented.",
+            "Both rounds, round 1 and round 2, will be conducted via Google forms in the respective venue, after which 10 students will be chosen, and 5 teams, each with two players , will compete in Round 3, known as the buzzer round.",
+            "It should be noted that the team members will be picked via a chit-based approach for the final round(Round 3)."
+
         ],
         venue: "Lab 1,2,3",
         date: "29-04-2023",
@@ -986,6 +1000,7 @@ export const carouselData1 = [
     {
         event_id: "dbwehjjr342hb234-2342ewe-34266",
         event_name: "PICK UP THE CUP",
+        poster: putcLarge,
         slug: `putc`,
         tagline: "",
         desc: 'It is an interesting game that is played having cups and balloons. The participants will inflate the balloon to pick the cups and stack them one over the other like making tower. There is another final round to this game that will test your skills to complete the task and win the prize.',
@@ -1024,6 +1039,7 @@ export const carouselData1 = [
         event_id: "dbwehjjr342hb234-2342ewe-34267",
         event_name: "DHUN TAAL",
         slug: `dt`,
+        poster:dtLarge,
         tagline: "",
         desc: 'The Whisper Challenge is a game or activity where one person wears noise-cancelling headphones or earplugs and another person whisper a phrase or sentence to them. The person wearing headphones or earplugs then must guess what was said by lip reading or interpreting the muffled sound they hear. ',
         rules: [
@@ -1091,6 +1107,299 @@ export const carouselData1 = [
         disable:true,
         special: true,
         registrationLink: "",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34269",
+        event_name: "TIPOD",
+        slug: `tipod`,
+        tagline: "",
+        desc: 'A three-legged race is a running event involving pairs of participants running with the left leg of one runner strapped to the right leg of another runner. The objective is for the partners to beat the other contestant pairs to the finish line.',
+        rules: [
+            "No team is allowed to move forward before final whistle.",
+            "Team will be disqualified, if the ribbon opens up by any chance.",
+            "No one is allowed to nudge any other team member.",
+            "Team should follow their path only otherwise they will be disqualified"
+            ],
+        venue: "Fountain Area",
+        date: "29-04-2023",
+        time: "12:00 PM to 12:30 PM",
+        // prize_pool: 3000,
+        team_size: "8 (4 pairs)",
+        poc: {Ayush : '9455963915'},
+        banner:
+            tipod,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Tipod23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34270",
+        event_name: "FUNTAKSHARI",
+        slug: `funtakshari`,
+        tagline: "",
+        desc: 'Antakshari, also known as Antyakshari (अंताक्षरी transl. The game of the ending letter) is a spoken parlor game played in India. Each contestant sings the first verse of a song (often Classical Hindustani or Bollywood songs) that begins with the consonant of Hindi alphabet on which the previous contestants song ended',
+        rules:[
+            "Round 1:-",
+              "One word would be given to each team and that team would have to sing the first two lines of songs, having the given word.",
+              "Different words would be given to each team.",
+              "Total five words will be given to each team.",
+              "Timer of 10sec will be given for each word.",
+            "Round 2:-",
+              "This will be an audio round, based on Hindi film songs.",
+              "The signature tune of a song will be played on the audio player for about ten seconds.",
+              "The participants will have to recognize the song correctly and sing the mukhda of the song within 10 seconds.",
+              "There would be 2 clues if not guessed by the team"
+            ],
+        venue: "Raman Sabhaghar (RS)",
+        date: "28-04-2023",
+        time: "02:30 PM to 03:30 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: {Ayush : '9455963915'},
+        banner:
+            funtakshari,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Funtakshari23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34271",
+        event_name: "RANG SPARDHA",
+        slug: `rangspardha`,
+        tagline: "",
+        desc: 'Rangoli is an art form that originates from in the Indian subcontinent, in which patterns are created on the floor or a tabletop using materials such as powdered lime stone, red ochre, dry rice flour, coloured sand, quartz powder, flower petals, and coloured rocks.',
+        rules:[
+            "Fixed time limit will be allocated to the participants to draw the rangoli.",
+            "During the competition no one is allowed to carry any kind of paper materials or any electronic gadgets.",
+            "Theme or topic of rangoli will be given on the spot.",
+            "Only provided material should be used for making rangoli.",
+            "Any tools, such as stencils will not be allowed to make any rangoli design."
+            ],
+        venue: "IFD(In front of Director Office)",
+        date: "28-04-2023",
+        time: "12:00 PM to 01:00 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: {Ayush : '9455963915'},
+        banner:
+            rangspardha,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Rang-Spardha23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34272",
+        event_name: "EUPHONY",
+        slug: `euphony`,
+        tagline: "",
+        desc: '– Solo Singing is the act of producing musical sounds with the voice and augments regular speech by the use of sustained tonality, rhythm, and a variety of vocal techniques',
+        rules:[
+            "Time allotted for each performance is 3-5 minutes.",
+            "Participants will not be allowed to refer to the lyrics while singing.",
+            "The participants should bring their own musical instruments if required in the performance.",
+            "Choice of song is open to the participants but the song should not have any slangs or derogatory language."
+            ]
+        ,
+        venue: "Atal Sabhaghar (AS)",
+        date: "28-04-2023",
+        time: "04:30 PM to 05:30 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: {Ayush : '9455963915'},
+        banner:
+            euphony,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Euphony23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34273",
+        event_name: "TUSSLE",
+        slug: `tussle`,
+        tagline: "",
+        desc: '– Tug of war is a sport that pits two teams against each other in a test of strength: teams pull on opposite ends of a rope, with the goal being to bring the rope a certain distance in one direction against the force of the opposing teams p ',
+        rules:[
+            "An equal number of players pick up each end of the rope.",
+            "The players begin tugging the rope when the referee gives the signal.",
+            "Each player pulls backwards as hard as they can.",
+            "The teams continue pulling until the center of the rope (tape mark) crosses where the referee is standing.",
+            "The game ends when the referee declares one team has successfully pulled the past the center."
+            ]
+        ,
+        venue: "Ground",
+        date: "28-04-2023",
+        time: "03:30 PM to 04:30 PM",
+        // prize_pool: 3000,
+        team_size: "10",
+        poc: {Ayush : '9455963915'},
+        banner:
+            tussle,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Tussle23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34274",
+        event_name: "EQUIPOSE",
+        slug: `equipose`,
+        tagline: "",
+        desc: '– Players stand on the start line, each with their lemon resting on their spoon. When you shout go, all players race to the finish line. If their lemon falls off they can pick it up but must go back to the start line and start again. To win lemon run you need to cross the line first without dropping your lemon',
+        rules:[
+            "No participant is allowed to move forward before final whistle.",
+            "If lemon falls on the floor then the participant will be disqualified.",
+            "If any participant skip any hurdle by any chance then he/she will be disqualified."
+            ]
+        ,
+        venue: "IFL ( In front of Library)",
+        date: "29-04-2023",
+        time: "01:00 PM to 02:00 PM",
+        // prize_pool: 3000,
+        team_size: "8",
+        poc: {Ayush : '9455963915'},
+        banner:
+            equipose,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Equipoise23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34275",
+        event_name: "HAND MANDALA",
+        slug: `hand`,
+        tagline: "",
+        desc: 'Mehandi is a form of body art and temporary skin decoration originating in ancient Egypt, usually drawn on hands or legs. They are decorative designs that are created on person’s body, using a paste, created from the powered dry leaves of the henna plant.',
+        rules:[
+            "Fixed time limit will be allocated to the participants to draw the mehndi.",
+            "During the competition no one is allowed to carry any kind of paper materials or any electronic gadgets.",
+            "Only provided material should be used for making mehndi.",
+            "Participants have to bring their own model (Another person) with themselves or have to draw it on their own hand."
+            ]
+        ,
+        venue: "IFD ( In front of Director Office)",
+        date: "29-04-2023",
+        time: "12:00 PM to 01:00 PM",
+        // prize_pool: 3000,
+        team_size: "2",
+        poc: {Ayush : '9455963915'},
+        banner:
+            handmandala,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Hand-Mandla23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34276",
+        event_name: "LUCKY DIP",
+        slug: `luckydip`,
+        tagline: "",
+        desc: 'Tambola is a popular version of Bingo and Housie which is played widely across India. The caller reads out the numbers that are randomly to the audience. The players cross the number off ticket if they have it after each number is called out',
+        rules:[
+            "To win in Tambola, you need to match winning combinations. Such as:",
+            "Top Line: The Ticket with all the numbers of the top row dabbed fastest.",
+            "Middle Line: The Ticket with all the numbers of the middle row dabbed fastest.",
+            "Bottom Line: The Ticket with the numbers of the bottom row dabbed fasted.",
+            "Full House: The ticket with all the 15 numbers marked first."
+            ]
+        ,
+        venue: "Atal Sabhaghar (AS)",
+        date: "29-04-2023",
+        time: "02:00 PM to 03:00 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: {Ayush : '9455963915'},
+        banner:
+            luckydip,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Lucky-Dip23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34277",
+        event_name: "TRIP TO JERUSALEM",
+        slug: `ttj`,
+        tagline: "",
+        desc: '– A game in which players march to music around a row of chairs numbering one less than the players and scramble for seats when the music stops.',
+        rules:[
+            "Play the music and have the players walk around the perimeter of the chair circle.",
+            "When the music stops, everyone must immediately sit in a chair.",
+            "The one person left standing it out.",
+            "Remove another chair and continue until only one person is left."
+            ]
+        ,
+        venue: "Atal Sabhaghar (AS)",
+        date: "29-04-2023",
+        time: "04:00 PM to 05:00 PM",
+        // prize_pool: 3000,
+        team_size: "10",
+        poc: {Ayush : '9455963915'},
+        banner:
+            toj,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Trip-to-Jerusalem23",
         day: 1,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },

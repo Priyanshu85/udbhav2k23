@@ -2,10 +2,10 @@ import React,{useEffect} from "react";
 import bgPattern from "../../assets/Teams/pattern2.svg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MP from "../../assets/loadimage.png"
-import dance from "../../assets/About/dance.webp"
-import band from "../../assets/About/band.webp"
-import sing from "../../assets/About/sing.webp"
-import performance from "../../assets/About/performance.webp"
+import dance from "../../assets/About/4.webp"
+import band from "../../assets/About/1.webp"
+import sing from "../../assets/About/2.webp"
+import performance from "../../assets/About/3.webp"
 import HeroAbout from "../../assets/About/HeroAbout.webp"
 import Schedule from '../../assets/About/schedule.webp';
 import "./About.css"
