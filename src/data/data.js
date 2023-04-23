@@ -183,7 +183,7 @@ export const carouselData1 = [
         time: "11:30 AM to 12:30 AM",
         // prize_pool: 250000,
         team_size: 1,
-        poc: { DEV: "8171970884", SRISHTI: "6265094855" },
+        poc: { DEV: "8171970884", SRISHTI: "6387459413" },
         banner:
             nrityangna,
         // approved: true,
