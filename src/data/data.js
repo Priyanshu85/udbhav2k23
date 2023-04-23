@@ -19,6 +19,10 @@ import rangmanchLarge from "../assets/events/rangmanchLarge.webp"
 import shutterLarge from '../assets/events/shutterLarge.webp'
 import webdevLarge from '../assets/events/webdevLarge.webp'
 import designfusionLarge from '../assets/events/designfusionLarge.webp'
+import inkyLarge from '../assets/events/inkyLarge.webp'
+import representLarge from '../assets/events/representLarge.webp'
+import recapLarge from '../assets/events/recapLarge.webp'
+import quizLarge from '../assets/events/quizLarge.webp'
 
 
 // events
@@ -36,6 +40,17 @@ import moherangde from "../assets/events/moherangde.webp"
 import webdev from "../assets/events/webdev.webp"
 import shutter from '../assets/events/shutter.webp'
 import designfusion from '../assets/events/designfusion.webp'
+import inky from '../assets/events/inky.webp'
+import represent from '../assets/events/represent.webp'
+import baloon from '../assets/events/balloon.webp'
+import recap from '../assets/events/recap.webp'
+import quiz from '../assets/events/quiz.webp'
+import putc from '../assets/events/putc.webp'
+import dt from '../assets/events/dt.webp'
+import tff from '../assets/events/tff.webp'
+import rd from '../assets/events/rd.webp'
+import bitb from '../assets/events/bitb.webp'
+import ws from '../assets/events/ws.webp'
 
 
 //Teams
@@ -212,7 +227,6 @@ export const carouselData1 = [
         banner:
             nrityaSangam,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/nrityasangam23",
         day: 0,
@@ -250,7 +264,6 @@ export const carouselData1 = [
         banner:
             jugalbandi,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/jugalbandi23",
         day: 0,
@@ -290,9 +303,51 @@ export const carouselData1 = [
         banner:
             jashn,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/Jashn-Ae-Naach23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34270",
+        event_name: "BALL UN THE BUCKET",
+        slug: `bitb`,
+        tagline: "",
+        desc: 'Throw the maximum number of balls in the bucket to win a prize. But it is not as easy as it looks - no matter how you throw the ball it always seems to bounce back out! Once you throw the ball in the right way and hit the bucket at just the right angle, then you will get a point.',
+        rules: [
+            "ROUND 1-",
+            "This round will depend upon the number of teams",
+            "At a time 2 teams will play.",
+            "4 Buckets will be set up adjacent to each other in shape of kite. Two teams will stand opposite to each other in front of the buckets.",
+            "Each team will have different colour of balls.",
+            "Each team will get 1 point if a ball is thrown in the front bucket and for the buckets at back side they will get 2 points.",
+            "Each team will have 45 seconds, and at the end of the time the points will be counted.",
+            "Team having more points will go to next round while other team will be eliminated.",
+            "ROUND 2-",
+            "This round will be the final round.",
+            "The left hand of one player will be tied with the right hand of another player of the same team. And there will be a timer of 1 minute for the game.",
+            "Buckets will be placed closer to each other at some distance from the teams.",
+            "All the teams will throw balls into the bucket with their tied hands.",
+            "While throwing the balls the teams cannot cross the line.",
+            "For each ball which gets inside the bucket, the team will get a point otherwise no point will be rewarded.",
+            "The team with maximum number of balls will be the winner"
+        ],
+        venue: "On Front Of Library (IFL)",
+        date: "29-04-2023",
+        time: "11:00 AM to 12:00 PM",
+        // prize_pool: 3000,
+        team_size: "2",
+        poc: {HARSH: '7905258157',SHRUTI : '9811552127'},
+        banner:
+            bitb,
+        approved: true,
+        disable:true,
+        special: true,
+        registrationLink: "",
         day: 1,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
@@ -327,7 +382,6 @@ export const carouselData1 = [
         banner:
             RajneetiLarge,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/rajneeti23",
         day: 0,
@@ -362,7 +416,6 @@ export const carouselData1 = [
         banner:
             Farzi,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/farzimushaira23",
         day: 1,
@@ -397,7 +450,6 @@ export const carouselData1 = [
         banner:
             Nautankibanner,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/NautankiGali23",
         day: 0,
@@ -435,7 +487,6 @@ export const carouselData1 = [
         banner:
             SCbanner,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/SILENTCIRCUS23",
         day: 0,
@@ -470,7 +521,6 @@ export const carouselData1 = [
         banner:
             battleofbandsLarge,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/battleofbands23",
         day: 0,
@@ -507,7 +557,6 @@ export const carouselData1 = [
         banner:
             rangmanch,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/rangmanch23",
         day: 1,
@@ -545,7 +594,6 @@ export const carouselData1 = [
         banner:
             choirofguns,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/CHOIROFGUNS23",
         day: 0,
@@ -576,9 +624,51 @@ export const carouselData1 = [
         banner:
             moherangde,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/MoheRangDe23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34269",
+        event_name: "RAZZLE DAZZLE",
+        slug: `rd`,
+        tagline: "",
+        desc: 'The opportunity to have fun with your friends and get rewarded for that as well. Fun Do is here with some exciting viral games that slay the social media all over the world.',
+        rules: [
+            "ROUND 1/ GAME1-",
+            "Participants will be blindfolded.",
+            "If the person with the blindfold found touching their eyes will be considered as cheating.",
+            "They will have to pick different objects placed on a table using a spatula.",
+            "The number of objects picked will decide their qualification for the next round.",
+            
+            "ROUND 2/ GAME 2-",
+            "Participants will be blindfolded.",
+            "If the person with the blindfold found touching their eyes will be considered as cheating.",
+            "They will be asked to stop a spinning wheel/plate.",
+            "Based on the outcome of wheel, teams will go to next round.",
+            
+            "ROUND 3/ GAME 3-",
+            "Based on the number of teams qualified for this round, we will place some candles on a table.",
+            "There will be a reward assigned to each candle.",
+            "Based on how many candles they can blow; they will get rewarded."
+        ],
+        venue: "Raman Sabhaghar",
+        date: "29-04-2023",
+        time: "02:00 PM to 03:00 PM",
+        // prize_pool: 3000,
+        team_size: "4",
+        poc: {HARSHITA :'8287454921 '},
+        banner:
+            rd,
+        approved: true,
+        disable:true,
+        special: true,
+        registrationLink: "",
         day: 1,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
@@ -614,7 +704,6 @@ export const carouselData1 = [
         banner:
             webdev,
         approved: true,
-        disable: true,
         special: true,
         registrationLink: "https://tinyurl.com/Webdev2k23",
         day: 0,
@@ -646,6 +735,142 @@ export const carouselData1 = [
         banner:
             shutter,
         approved: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/ShutterIsland23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34260",
+        event_name: "DESIGN FUSION",
+        slug: `designfusion`,
+        poster:designfusionLarge,
+        tagline: "",
+        desc: 'Hey mate “Time for some creativity”.Are you ready to show off your artistic skills and win some awesome prizes? Then join our poster making competition organized by Technical Team',
+        rules: [
+            "Registration Free",
+            "Focus on the design part.",
+            "Your edit does not need to be perfect, but it should be clear enough to show that it is of the mannequin.",
+            "The first person who shows their edit will win the prize.",
+            ],
+        venue: "Lab 1,2,3",
+        date: "28-04-2023",
+        time: "02:30 PM to 03:30 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: { Abhishek : "9999718630",Samana : "9354027834"},
+        banner:
+            designfusion,
+        approved: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/DesignFusion23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34261",
+        event_name: "INKY EXPRESSION",
+        slug: `inkyhand`,
+        poster:inkyLarge,
+        tagline: "",
+        desc: 'A writers creativity is evaluated using the Inky Expression situation-based writing competition. It involves putting thoughts on paper in order to explain them about a particular topic. The judges of the competition evaluate the competitors critical thinking skills and subject expertise.',
+        rules: [
+            "Each participant must make a random selection from a list of topics.",
+            "The language that each person speaks is entirely up to them. (English or Hindi)",
+            "The participant should be given 20 minutes to write about that topic.",
+            "Prior to the writing period, you get five minutes to develop your points on the topic.",
+            "If the individual chooses to speak about their topic, they will receive bonus points.",
+            "Any improper, abusive, or defamatory language is absolutely forbidden.",
+            "The judges' judgment is final."
+        ],
+        venue: "Civil Seminar Hall (CSH)",
+        date: "28-04-2023",
+        time: "11:30 AM to 12:30 AM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: {PRATEEK: '870728119' ,Siddharth: '7379412633'},
+        banner:
+            inky,
+        approved: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/InkyExpression23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34262",
+        event_name: "REPRESENTATION IN RING",
+        slug: `representationinthering`,
+        poster:representLarge,
+        tagline: "",
+        desc: 'A word wrestler enters the arena, chooses a topic, and then delivers a humorous, well-thought-out notion while gesturing to support the character or circumstance he/she is placed in. Your ability to defend yourself in this ring will be put to the test by your humor, writing, and presentation abilities.',
+        rules: [
+            "There is a 2-minute preparation time limit.",
+            "Three minutes will be given for speaking following preparation.",
+            "Clear and supportive gestures, movements, facial expressions, intonation, and vocalizations, among other things, are required.",
+            "Laughter is welcomed and encouraged. You must have good pronunciation and a steady, clear voice.",
+            "Even if a speech is delivered spontaneously, it must be well-supported and have an easily recognisable introduction, body of support, and conclusion."
+        ],
+        venue: "Civil Seminar Hall (CSH)",
+        date: "29-04-2023",
+        time: "12:00 AM to 01:00 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: {PRATEEK: '870728119' ,Siddharth: '7379412633'},
+        banner:
+            represent,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34263",
+        event_name: "BALOON BOND",
+        slug: `baloonbond`,
+        tagline: "",
+        desc: 'Collect the maximum number of balloons via the coordination with your team member without dropping it or touching it.',
+        rules: [
+            "ROUND 1-",
+            "Team of 2 players",
+            "There will be a time constraint of 1 min.",
+            "Teammates must hold the balloon between their backs and try to cover a distance from the starting line to the finish line without touching it or dropping it and they are also not allowed to hold the hands.",
+            "If a team drops the balloon more than 3 times, they will be eliminated.",
+            "Each time a team drop balloon, they have to start from the beginning.",
+            "If they try to touch the balloon, no point will be given for that.",
+            "The team who will have the maximum number of balloons in the given time will be eligible for the final round.",
+            "ROUND 2-",
+            "One of the members will be blindfolded and the other member will guide his teammate to reach to the end point and pop the balloon at the finish line with the help of the toothpick in their hand.",
+            "In the final round, if the person with the blindfold found touching their eyes will be considered as cheating.",
+            "The team who will pop the balloon first will be the winner."
+        ],
+        venue: "Near Main Stage (NMS)",
+        date: "28-04-2023",
+        time: "12:30 PM to 01:30 PM",
+        // prize_pool: 3000,
+        team_size: "2",
+        poc: {SHRUTI: '9811552127', HARSH: '7905258157'},
+        banner:
+            baloon,
+        approved: true,
         disable: true,
         special: true,
         registrationLink: "",
@@ -656,38 +881,220 @@ export const carouselData1 = [
         //     { name: 'Promi', id: 'Wi1223' },
         // ]
     },
-    // {
-    //     event_id: "dbwehjjr342hb234-2342ewe-34260",
-    //     event_name: "DESIGN FUSION",
-    //     slug: `designfusion`,
-    //     poster:designfusionLarge,
-    //     tagline: "",
-    //     desc: 'If you want to flex your photography and editing skills? Charge your cameras and brush up your editing skills because this event is for you! During day 1 at random times, a person from the UDBHAV team will appear holding a sign board with the text “click a picture of the mannequin in a neon t-shirt roaming in the college so right now and edit it on a picture of an island”. The first person to complete the task first and show their edit to the person holding the sign will win a prize.',
-    //     rules: [
-    //         "Registration Free",
-    //         "Focus on the design part.",
-    //         "Your edit does not need to be perfect, but it should be clear enough to show that it is of the mannequin.",
-    //         "The first person who shows their edit will win the prize.",
-    //         ],
-    //     venue: "Lab 1,2,3",
-    //     date: "28-04-2023",
-    //     time: "Whole Day",
-    //     // prize_pool: 3000,
-    //     team_size: "1",
-    //     poc: { Abhishek : "9999718630",Samana : "9354027834"},
-    //     banner:
-    //         designfusion,
-    //     approved: true,
-    //     disable: true,
-    //     special: true,
-    //     registrationLink: "https://tinyurl.com/DesignFusion23",
-    //     day: 0,
-    //     // winner: [
-    //     //     { name: 'Ajoy', id: 'Wi1223' },
-    //     //     { name: 'Shantu', id: 'Wi1223' },
-    //     //     { name: 'Promi', id: 'Wi1223' },
-    //     // ]
-    // },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34271",
+        event_name: "WRAPPER SKITTER",
+        slug: `ws`,
+        tagline: "",
+        desc: ': Paper Dance, as the name suggests is a competition where participants in pairs dance on a piece of paper until the music stops. The paper is folded in every stop, so it gets smaller and smaller with the proceeding rounds.',
+        rules: [
+            "Scatter sheets of papers on the floor and ask the participants to step on them in pairs.",
+            "Put on the music and let the participants dance for a minute on the paper. The team will be out of the game if any person steps on the floor.",
+            "After a minute, stop the music and fold the paper into half. Again, put on the music and let the participants dance for a minute. Keep an eye on everyone’s feet to check if anyone steps on the floor. Carry on this way by refolding the paper.",
+            "The team, which will manage to stay on the paper, will be the winner."
+            ],
+        venue: "Atal Sabhaghae (AS)",
+        date: "29-04-2023",
+        time: "01:00 PM to 02:00 PM",
+        // prize_pool: 3000,
+        team_size: "2",
+        poc: {HARSHITA :'8287454921 '},
+        banner:
+            ws,
+        approved: true,
+        disable:true,
+        special: true,
+        registrationLink: "",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34264",
+        event_name: "RECAP",
+        slug: `recap`,
+        poster:recapLarge,
+        tagline: "",
+        desc: 'Had a blast on day 1 of UDBHAV 23’? We know you did! Now its time to show us how much you enjoyed the event by portraying it in the Recap event on day 2. All you need to do is make a reel using the clips and pictures that you captured during day 1 of UDBHAV. Kindly keep in mind that you can only use the events video clips and pictures that you have clicked. If you are found using any other data youll immediately be disqualified. The reels will be evaluated based on your editing skills, the audio, and the cinematography of your clips. So, make sure you put your best foot forward! ',
+        rules: [
+            "RULE 1-Participants need to submit their reels before 12 pm on day 2.",
+            "RULE 2- Any entry with any form of plagiarism will be immediately disqualified.",
+        ],
+        venue: "Lab 1,2,3",
+        date: "29-04-2023",
+        time: "01:00 PM to 02:00 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: { Abhishek : "9999718630",Samana : "9354027834"},
+        banner:
+            recap,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34265",
+        event_name: "QUIZMANIA",
+        slug: `quizmania`,
+        poster:quizLarge,
+        tagline: "",
+        desc: 'UDBHAV brings you its Quiz event: Compete with others to win exciting prizes.The coverage of the quiz includes general information including Current Events, Science, technical and Sports and the questions are alternately given by category. ',
+        rules: [
+            "Registration : FREE!",
+            " The quiz shall consist of first come first serve.",
+            " Core Team has the right to Disqualify any Individual without prior notice.",
+            " A team gets 30 seconds to answer the question intended for it.",
+            " Based on their performance in the quiz bee, the top-5 teams will compete in the Finals.",
+            " In case of a tie at the end of the finals between two teams, their quiz bee score will be used for tie-breaking.",
+            " The quiz will be divided into 2 rounds. Round 1 and Round 2.",
+            " The contestants should be at the place of the Competition 10 minutes prior the scheduled time and immediate disqualification will be implemented."
+        ],
+        venue: "Lab 1,2,3",
+        date: "29-04-2023",
+        time: "10:00 AM to 11:00 AM",
+        // prize_pool: 3000,
+        team_size: "Round 1: 1 and Round 2:2",
+        poc: {Ashutosh : '7080285634'},
+        banner:
+            quiz,
+        approved: true,
+        disable: true,
+        special: true,
+        registrationLink: "",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34266",
+        event_name: "PICK UP THE CUP",
+        slug: `putc`,
+        tagline: "",
+        desc: 'It is an interesting game that is played having cups and balloons. The participants will inflate the balloon to pick the cups and stack them one over the other like making tower. There is another final round to this game that will test your skills to complete the task and win the prize.',
+        rules: [
+            "Round 1-",
+            " A person must pick the cups by inflating the balloons inside the cup and no hands are allowed.",
+            " Stack the cups one over the another to make a tower.",
+            " If the tower falls the participant must start from the beginning.",
+            " The participant whose tower has the maximum heights will win this round.",
+            "ROUND 2-",
+            " The participant has to flip the bottle and when it lands straight then only the participant is allowed to take a cup and start making the Pyramid.",
+            " The pyramid structures have to be like (5-4-3-2-1).",
+            " If the structure falls or is disoriented due to any reasons the participant has to start from beginning.",
+            " The allotted time for this round is 2 mins.",
+            "ote: Participants are not allowed to interfere with the gameplay of other participants."
+        ],
+        venue: "Raman Sabhaghar",
+        date: "28-04-2023",
+        time: "01:30 PM to 02:30 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: {HARSH: '7905258157',SHRUTI : '9811552127'},
+        banner:
+            putc,
+        approved: true,
+        special: true,
+        registrationLink: "https://tinyurl.com/PickuptheCup23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34267",
+        event_name: "DHUN TAAL",
+        slug: `dt`,
+        tagline: "",
+        desc: 'The Whisper Challenge is a game or activity where one person wears noise-cancelling headphones or earplugs and another person whisper a phrase or sentence to them. The person wearing headphones or earplugs then must guess what was said by lip reading or interpreting the muffled sound they hear. ',
+        rules: [
+            "ROUND 1-",
+            "Divide players into teams: Players should be divided into two or more teams, depending on how many people are playing.",
+            "One person whispers a phrase to another: Each round, one person from each team will whisper a phrase to a member of their team wearing noise-cancelling headphones or earplugs.",
+            "Lip reading or guessing the phrase: The person wearing the headphones or earplugs must guess the phrase by either lip-reading or interpreting the muffled sounds they hear.",
+            "Points system: Points will be awarded for each correct guess or for the team with the most correct guesses at the end of the round.",
+            "ROUND 2-",
+            "Once you have qualified round one.",
+            "The whole team will line up and everyone must wear headphones or earplugs and turn up the volume.",
+            "The person who is saying the phrase can take off their headphones while they’re saying the phrase, but everyone else should have their headphones on.",
+            "One person who was previously picked out will whisper a phrase to the person next to them, and they must lipread.",
+            "Continue doing this until you’ve gotten to the last person in the group.",
+            "Once you’ve reached the last person in the group, have everyone take off their headphones. Then, ask the last person to say what they heard out loud."
+        ],
+        venue: "Raman Sabhaghar",
+        date: "28-04-2023",
+        time: "11:30 AM to 12:30 PM",
+        // prize_pool: 3000,
+        team_size: "3",
+        poc: {HARSH: '7905258157',SHRUTI : '9811552127'},
+        banner:
+            dt,
+        approved: true,
+        disable:true,
+        special: true,
+        registrationLink: "",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34268",
+        event_name: "THE FURIOUS FINDERS",
+        slug: `tff`,
+        tagline: "",
+        desc: 'We will give some info or kind of puzzle written in chit to the teams, and they’ll have to solve that problem and find the object which is placed on random places. The team who finds it first can go to the next round and in this there are minimum 4 places where the object (treasure) is placed.',
+        rules: [
+            "DO not open and view the clues prior to the announcement that the hunt has started.",
+            "Team must stay together; teams must be at the same clue site at the same time.",
+            "All team members must be present when turning in your score sheet.",
+            "An organizer with each team will be assigned to keep a check on everyone.",
+            "No team is allowed to destroy the clues of other team. If found so, they will be disqualified from the game.",
+            "There will be only four teams having 4 members in each team.",
+            "Make sure you have all the clues of previous rounds being with you of your’s team, then only you being a finder.",
+            "Phones will be collected/submitted to the core team at the beginning of the game.",
+            "Game will start with the distribution of first clue at the mid of the college(in front of central library).",
+            "Don’t damage any college property, if found doing so it will be a punishable offence. The team might be disqualified for this.",
+            "Don’t speak with team members of other team after starting the game, if found it will lead to disqualification."
+        ],
+        venue: "IPEC College",
+        date: "29-04-2023",
+        time: "10:00 AM to 11:00 AM",
+        // prize_pool: 3000,
+        team_size: "4",
+        poc: {HARSH: '7905258157',SHRUTI : '9811552127',HARSHITA :'8287454921 '},
+        banner:
+            tff,
+        approved: true,
+        disable:true,
+        special: true,
+        registrationLink: "",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    
+    
+    
 ];
 export const TeamMember = [
     {

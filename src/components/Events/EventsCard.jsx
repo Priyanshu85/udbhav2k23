@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const EventsCard = ({ event }) => {
     const navigate = useNavigate();
-    const { banner, slug, registrationLink } = event;
+    const { banner, slug, registrationLink,disable } = event;
     const linkHandler = () => {
         if (!registrationLink) return;
         window.open(registrationLink);
@@ -20,9 +20,9 @@ const EventsCard = ({ event }) => {
             <div className="flex mt-7 relative">
                 <img src={ticketSVG} />
                 <div className='absolute top-0 left-0 w-full h-full flex items-center justify-around font-SquadaOne'>
-                    <button onClick={linkHandler} className="rounded-md border-2 border-dashed border-green-700 bg-green-600 bg-opacity-10 py-1 px-4 duration-200 hover:bg-opacity-30">Register</button>
+                    <button onClick={linkHandler} className="rounded-md border-2 border-dashed border-green-700 bg-green-600 bg-opacity-10 py-1 px-4 duration-200 hover:bg-opacity-30" disabled={disable}>{disable ? `Same Day Register` : `Register`}</button>
                     <Link to={`/events/${slug}`}>
-                        <button className="rounded-md border-2 border-dashed border-green-700 bg-green-600 bg-opacity-10 py-1 px-4 duration-200 hover:bg-opacity-30">Details</button>
+                        <button className="rounded-md border-2 border-dashed border-green-700 bg-green-600 bg-opacity-10 py-1 px-4 duration-200 hover:bg-opacity-30" >Details</button>
                     </Link>
                 </div>
             </div>
