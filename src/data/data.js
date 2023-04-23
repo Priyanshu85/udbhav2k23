@@ -23,6 +23,7 @@ import inkyLarge from '../assets/events/inkyLarge.webp'
 import representLarge from '../assets/events/representLarge.webp'
 import recapLarge from '../assets/events/recapLarge.webp'
 import quizLarge from '../assets/events/quizLarge.webp'
+import cogsLarge from '../assets/events/cogsLarge.webp'
 
 
 // events
@@ -314,7 +315,7 @@ export const carouselData1 = [
     },
     {
         event_id: "dbwehjjr342hb234-2342ewe-34270",
-        event_name: "BALL UN THE BUCKET",
+        event_name: "BALL IN THE BUCKET",
         slug: `bitb`,
         tagline: "",
         desc: 'Throw the maximum number of balls in the bucket to win a prize. But it is not as easy as it looks - no matter how you throw the ball it always seems to bounce back out! Once you throw the ball in the right way and hit the bucket at just the right angle, then you will get a point.',
@@ -378,7 +379,7 @@ export const carouselData1 = [
         time: "5:30 PM to 7:00 PM",
         // prize_pool: 3000,
         team_size: 4,
-        poc: { PRATEEK: "870728119", SIDDHARTH: "7379412633"},
+        poc: { PRATEEK: "8707283119", SIDDHARTH: "7379412633"},
         banner:
             RajneetiLarge,
         approved: true,
@@ -412,7 +413,7 @@ export const carouselData1 = [
         time: "11:00 AM – 12:00 PM",
         // prize_pool: 3000,
         team_size: 3,
-        poc: { PRATEEK: "870728119", SIDDHARTH: "7379412633"},
+        poc: { PRATEEK: "8707283119", SIDDHARTH: "7379412633"},
         banner:
             Farzi,
         approved: true,
@@ -433,13 +434,14 @@ export const carouselData1 = [
         tagline: "",
         desc: '"Nautanki Gali" is a captivating event that showcases the vibrant art form of "nukkad natak" or street theater, typically as part of a festival or cultural event. The event creates a unique and dynamic platform for performers to bring their theatrical talents to the streets and engage with the audience in an interactive and immersive manner.',
         rules: [
-           "Time limits :- 15-20 min + 2min for setup(marks will be deducted for exceeding the time limit)",
-           "Team members :- 20 members in a single team.",
+            "Time limits :- 15-20 min + 2min for setup(marks will be deducted for exceeding the time limit)",
+            "Team members :- 20 members in a single team.",
             "College will not be providing/responsible for arranging/keeping any kind of props (lathi, gulal, dupatta, etc) and instruments..",
             "Usage of any kind of abusive content will lead to immediate disqualification.",
             "In order to prioritize the respect and sensitivity towards all members of society and to avoid any potential harm to religious or political sentiments, teams must submit their scripts no later than April 24th, Failure to do so may result in disqualification from the event",
             "Entries will be entertained on the first come first serve basis",
             "Carrying your college i-card is mandatory, failing to it might result indisqualification.",
+            "Judgement Criteria : Originality & creativity, Acting, Writing & Direction, Vocal and physical expressiveness, Audition interaction, Team Work, Theme & message, Overall impact, Use of space, Decision of the jury would be final"
         ],
         venue: "In Front of Library (IFL)",
         date: "28-04-2023",
@@ -476,13 +478,13 @@ export const carouselData1 = [
             "Usage of any kind of props will lead to immediate disqualification.",
             "In order to prioritize the respect and sensitivity towards all members of society",
             "Carrying your college i-card is mandatory, failing to it might result in disqualification.",
-
+            "Judgement Criteria : Originality & creativity, Acting, Writing & Direction, Physical expressiveness, Technique & stage presence, Interpretation of Theme, Overall impact, Audience engagement, Decision of the jury would be final"
         ],
         venue: "Atal Sabhagar(AS)",
         date: "28-04-2023",
         time: "03:30 PM – 04:30 PM",
         // prize_pool: 3000,
-        team_size: 20,
+        team_size: '5-10',
         poc: { TUSHAR: "9958794205", CHETAN: "9654360612"},
         banner:
             SCbanner,
@@ -569,6 +571,7 @@ export const carouselData1 = [
     {
         event_id: "dbwehjjr342hb234-2342ewe-34256",
         event_name: "CHOIR OF GUNS",
+        poster:cogsLarge,
         slug: `choirofguns`,
         tagline: "",
         desc: 'UDBHAV brings you its gaming tournament: Battleground Mobile India in its Classic Battle. Compete with others to win exciting prizes!',
@@ -755,7 +758,9 @@ export const carouselData1 = [
             "Registration Free",
             "Focus on the design part.",
             "Your edit does not need to be perfect, but it should be clear enough to show that it is of the mannequin.",
-            "The first person who shows their edit will win the prize.",
+            "Submission requirements: Each participant is allowed to submit only one design entry. The design should be created using Canva's design platform (non pro id )and must be original work. It should not have been previously published or awarded in any other competition.",
+            "File format: Designs should be submitted in a high-resolution PNG, JPG, or PDF format.",
+            "Judging Criteria: Designs will be judged based on their creativity, originality, and overall design quality. The judges' decision will be final, and no appeals will be entertained."
             ],
         venue: "Lab 1,2,3",
         date: "28-04-2023",
@@ -789,14 +794,14 @@ export const carouselData1 = [
             "Prior to the writing period, you get five minutes to develop your points on the topic.",
             "If the individual chooses to speak about their topic, they will receive bonus points.",
             "Any improper, abusive, or defamatory language is absolutely forbidden.",
-            "The judges' judgment is final."
+            "The judges' judgement is final."
         ],
         venue: "Civil Seminar Hall (CSH)",
         date: "28-04-2023",
         time: "11:30 AM to 12:30 AM",
         // prize_pool: 3000,
         team_size: "1",
-        poc: {PRATEEK: '870728119' ,Siddharth: '7379412633'},
+        poc: {PRATEEK: '8707283119' ,Siddharth: '7379412633'},
         banner:
             inky,
         approved: true,
@@ -828,7 +833,7 @@ export const carouselData1 = [
         time: "12:00 AM to 01:00 PM",
         // prize_pool: 3000,
         team_size: "1",
-        poc: {PRATEEK: '870728119' ,Siddharth: '7379412633'},
+        poc: {PRATEEK: '8707283119' ,Siddharth: '7379412633'},
         banner:
             represent,
         approved: true,
@@ -995,7 +1000,7 @@ export const carouselData1 = [
             " The pyramid structures have to be like (5-4-3-2-1).",
             " If the structure falls or is disoriented due to any reasons the participant has to start from beginning.",
             " The allotted time for this round is 2 mins.",
-            "ote: Participants are not allowed to interfere with the gameplay of other participants."
+            "Note: Participants are not allowed to interfere with the gameplay of other participants."
         ],
         venue: "Raman Sabhaghar",
         date: "28-04-2023",
@@ -1022,32 +1027,33 @@ export const carouselData1 = [
         tagline: "",
         desc: 'The Whisper Challenge is a game or activity where one person wears noise-cancelling headphones or earplugs and another person whisper a phrase or sentence to them. The person wearing headphones or earplugs then must guess what was said by lip reading or interpreting the muffled sound they hear. ',
         rules: [
-            "ROUND 1-",
-            "Divide players into teams: Players should be divided into two or more teams, depending on how many people are playing.",
-            "One person whispers a phrase to another: Each round, one person from each team will whisper a phrase to a member of their team wearing noise-cancelling headphones or earplugs.",
-            "Lip reading or guessing the phrase: The person wearing the headphones or earplugs must guess the phrase by either lip-reading or interpreting the muffled sounds they hear.",
-            "Points system: Points will be awarded for each correct guess or for the team with the most correct guesses at the end of the round.",
-            "ROUND 2-",
-            "Once you have qualified round one.",
-            "The whole team will line up and everyone must wear headphones or earplugs and turn up the volume.",
-            "The person who is saying the phrase can take off their headphones while they’re saying the phrase, but everyone else should have their headphones on.",
-            "One person who was previously picked out will whisper a phrase to the person next to them, and they must lipread.",
-            "Continue doing this until you’ve gotten to the last person in the group.",
-            "Once you’ve reached the last person in the group, have everyone take off their headphones. Then, ask the last person to say what they heard out loud."
-        ],
-        venue: "Raman Sabhaghar",
-        date: "28-04-2023",
-        time: "11:30 AM to 12:30 PM",
+                "ROUND 1-",
+                "The first team has to sing two complete lines and then they may stop at the end of those or following lines.",
+                "The last letter of the last word sung is then used by the next team to sing another song, starting with that letter. The winner or winning team is decided by a process of elimination. The team that cannot come up with a song with the right consonant is eliminated if their opponents can produce such a song.",
+                "ROUND 2-",
+                "This round will be a face-off between pairs of teams.",
+                "One player of each team will be asked to stand next to a table of props.",
+                "1-2 lines of a song will be played and the players will have to find the object related to the lyrics of that song.",
+                "This round will be played 3 times (3 players in a team) for all the pairs.",
+                "One team from every face-off will qualify for the final round.",
+                "ROUND 3-",
+                "A music will be played for 10-15 sec.",
+                "Teams will be asked to guess the name of the song, the movie and the singer.",
+                "**Tie Breaker: A song slip will be given to each team. One player will have to act, and others need to guess the song. First team to complete the song will win.**"
+            ],
+        venue: "Atal Sabhaghar",
+        date: "29-04-2023",
+        time: "03:00 PM to 04:00 PM",
         // prize_pool: 3000,
-        team_size: "3",
-        poc: {HARSH: '7905258157',SHRUTI : '9811552127'},
+        team_size: "4",
+        poc: {HARSH: '7905258157',SHRUTI : '9811552127',HARSHITA:'8287454921'},
         banner:
             dt,
         approved: true,
         disable:true,
         special: true,
         registrationLink: "",
-        day: 0,
+        day: 1,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
         //     { name: 'Shantu', id: 'Wi1223' },
