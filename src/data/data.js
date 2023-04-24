@@ -862,9 +862,9 @@ export const carouselData1 = [
         banner:
             represent,
         approved: true,
-        disable: true,
+        //disable: true,
         special: true,
-        registrationLink: "",
+        registrationLink: "https://tinyurl.com/ritr23",
         day: 1,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
@@ -962,9 +962,9 @@ export const carouselData1 = [
         banner:
             recap,
         approved: true,
-        disable: true,
+        // disable: true,
         special: true,
-        registrationLink: "",
+        registrationLink: "https://tinyurl.com/Re-cap23",
         day: 1,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
@@ -1001,9 +1001,9 @@ export const carouselData1 = [
         banner:
             quiz,
         approved: true,
-        disable: true,
+        // disable: true,
         special: true,
-        registrationLink: "",
+        registrationLink: "https://tinyurl.com/QuizMania23",
         day: 1,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
