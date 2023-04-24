@@ -26,6 +26,13 @@ import quizLarge from '../assets/events/quizLarge.webp'
 import cogsLarge from '../assets/events/cogsLarge.webp'
 import putcLarge from '../assets/events/putcLarge.webp'
 import dtLarge from '../assets/events/dtLarge.webp'
+import wdtlLarge from '../assets/events/wdtlLarge.webp'
+import natureLarge from '../assets/events/natureLarge.webp'
+import streetLarge from '../assets/events/streetLarge.webp'
+import sartLarge from '../assets/events/sartLarge.webp'
+import kdkhLarge from '../assets/events/kdkhLarge.webp'
+import ihandLarge from '../assets/events/ihandLarge.webp'
+import wiLarge from '../assets/events/wiLarge.webp'
 
 
 // events
@@ -63,6 +70,13 @@ import equipose from '../assets/events/equipose.webp'
 import handmandala from '../assets/events/handman.webp'
 import luckydip from '../assets/events/luckydip.webp'
 import toj from '../assets/events/toj.webp'
+import wdtl from '../assets/events/wdtl.webp'
+import nature from '../assets/events/nature.webp'
+import street from '../assets/events/street.webp'
+import sart from '../assets/events/sart.webp'
+import kdkh from '../assets/events/kdkh.webp'
+import wi from '../assets/events/wi.webp'
+import ihand from '../assets/events/ihand.webp'
 
 
 //Teams
@@ -860,7 +874,7 @@ export const carouselData1 = [
     },
     {
         event_id: "dbwehjjr342hb234-2342ewe-34263",
-        event_name: "BALOON BOND",
+        event_name: "BALLOON BOND",
         slug: `baloonbond`,
         tagline: "",
         desc: 'Collect the maximum number of balloons via the coordination with your team member without dropping it or touching it.',
@@ -1041,7 +1055,7 @@ export const carouselData1 = [
         slug: `dt`,
         poster:dtLarge,
         tagline: "",
-        desc: 'The Whisper Challenge is a game or activity where one person wears noise-cancelling headphones or earplugs and another person whisper a phrase or sentence to them. The person wearing headphones or earplugs then must guess what was said by lip reading or interpreting the muffled sound they hear. ',
+        desc: 'The game of the ending letter is a spoken with a little bit of twist. ',
         rules: [
                 "ROUND 1-",
                 "The first team has to sing two complete lines and then they may stop at the end of those or following lines.",
@@ -1145,6 +1159,41 @@ export const carouselData1 = [
         //     { name: 'Promi', id: 'Wi1223' },
         // ]
     },
+    
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34280",
+        event_name: "STREET SHOWDOWN",
+        slug: `streetshowdown`,
+        poster:streetLarge,
+        tagline: "",
+        desc: '"Street Showdown" is an electrifying and high-energy street dance event that brings together talented dancers from all around the city to showcase their skills in a thrilling competition. This festival celebrates the raw and dynamic art of street dance, where dancers express themselves through a fusion of different urban dance styles such as hip-hop, breakdance, popping, locking, and more',
+        rules:[
+            "No props or costumes are allowed",
+            "Only 1 person at a time, will be allowed to dance ",
+            "Songs will be played randomly(no choice would be there)",
+            "Entries will be entertained on the first come first serve basis.",
+            "Carrying your college i-card is mandatory, failing to it might result in disqualification."
+            ]          
+        ,
+        venue: "In Front of Library (IFL)",
+        date: "29-04-2023",
+        time: "04:00 PM to 05:00 PM",
+        // prize_pool: 3000,
+        team_size: "NO LIMIT",
+        poc: { SRISHTI: '6387459413',SNEHA: '7267003800'},
+        banner:
+            street,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/StreetShowdown23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
     {
         event_id: "dbwehjjr342hb234-2342ewe-34270",
         event_name: "FUNTAKSHARI",
@@ -1175,6 +1224,47 @@ export const carouselData1 = [
         //disable:true,
         special: true,
         registrationLink: "https://tinyurl.com/Funtakshari23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34278",
+        event_name: "WHISPER DOWN THE LANE",
+        slug: `wdtl`,
+        poster:wdtlLarge,
+        tagline: "",
+        desc: 'The Whisper Challenge is a game or activity where one person wears noise-cancelling headphones or earplugs and another person whisper a phrase or sentence to them. The person wearing headphones or earplugs then must guess what was said by lip reading or interpreting the muffled sound they hear',
+        rules:[
+            "ROUND 1-",
+            "• Divide players into teams: Players should be divided into two or more teams,depending on how many people are playing.",
+            "• One person whispers a phrase to another: Each round, one person from eachteam will whisper a phrase to a member of their team wearing noise-cancellingheadphones or earplugs.",
+            "• Lip reading or guessing the phrase: The person wearing the headphones orearplugs must guess the phrase by either lip-reading or interpreting the muffledsounds they hear.",
+            "• Points system: Points will be awarded for each correct guess or for the teamwith the most correct guesses at the end of the round.",
+            "ROUND 2-",
+            "• Once you have qualified round one.",
+            "• The whole team will line up and everyone must wear headphones or earplugsand turn up the volume.",
+            "• The person who is saying the phrase can take off their headphones whilethey’re saying the phrase, but everyone else should have their headphones on.",
+            "• One person who was previously picked out will whisper a phrase to the personnext to them, and they must lipread.",
+            "• Continue doing this until you’ve gotten to the last person in the group.",
+            "• Once you’ve reached the last person in the group, have everyone take off theirheadphones. Then, ask the last person to say what they heard out loud."
+            ]            
+        ,
+        venue: "Raman Sabhaghar (RS)",
+        date: "28-04-2023",
+        time: "11:30 AM to 12:30 PM",
+        // prize_pool: 3000,
+        team_size: "3",
+        poc: {HARSH: '7905258157',SHRUTI : '9811552127'},
+        banner:
+            wdtl,
+        approved: true,
+        disable:true,
+        special: true,
+        registrationLink: "",
         day: 0,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
@@ -1215,6 +1305,38 @@ export const carouselData1 = [
         // ]
     },
     {
+        event_id: "dbwehjjr342hb234-2342ewe-34279",
+        event_name: "NATURE MORTE",
+        slug: `nature`,
+        poster:natureLarge,
+        tagline: "",
+        desc: '-Still Life Sketching is a work of art that shows inanimate objects from the natural or manmade world',
+        rules:[
+            "Materials required will be provided to the Participants.",
+            "Digital media in painting is not allowed.",
+            "The decision of the judges will be considered final."
+            ]           
+        ,
+        venue: "Library",
+        date: "28-04-2023",
+        time: "01:30 PM to 02:30 PM",
+        // prize_pool: 3000,
+        team_size: "3",
+        poc: {Tarun: '7900881101' , Swati:'8303751023'},
+        banner:
+            nature,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Nature-Morte23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
         event_id: "dbwehjjr342hb234-2342ewe-34272",
         event_name: "EUPHONY",
         slug: `euphony`,
@@ -1239,6 +1361,39 @@ export const carouselData1 = [
         //disable:true,
         special: true,
         registrationLink: "https://tinyurl.com/Euphony23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34281",
+        event_name: "SCRAP ART",
+        slug: `scrapart`,
+        poster:sartLarge,
+        tagline: "",
+        desc: 'The expression of ideas and emotions, with the creation of certain aesthetic qualities, in a two-dimensional visual language on the sheet without brushes.',
+        rules:[
+            "The use of brush is strictly prohibited.",
+            "Digital media in painting is not allowed.",
+            "Drawing sheet and colors will be provided by organizers.",
+            "The decision of the judges will be considered final"
+            ]         
+        ,
+        venue: "In Front of Library (IFL)",
+        date: "28-04-2023",
+        time: "11:30 AM to 12:30 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: { Tarun: '7900881101' , Swati:'8303751023'},
+        banner:
+            sart,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Scrap-Art23",
         day: 0,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
@@ -1401,6 +1556,110 @@ export const carouselData1 = [
         special: true,
         registrationLink: "https://tinyurl.com/Trip-to-Jerusalem23",
         day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    
+    
+    
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34282",
+        event_name: "WASTE INNOVATION",
+        slug: `water`,
+        poster:wiLarge,
+        tagline: "",
+        desc: 'The Best out of Waste simply means to make or to create innovative and attractive things from the material we do not use anymore. ',
+        rules:[
+            "Waste materials should be brought by the Participants.",
+            "The item would be rejected if not found to be a waste product or second-hand item",
+            "Participants will be judged on the basis of creativity, innovation and design",
+            "The decision of the judges will be considered final."
+            ]        
+        ,
+        venue: "In Front of Library (IFL)",
+        date: "28-04-2023",
+        time: "12:30 PM to 01:30 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: { Tarun: '7900881101' , Swati:'8303751023'},
+        banner:
+            wi,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/Waste-innovation23",
+        day: 0,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34283",
+        event_name: "THE INKY HAND",
+        slug: `inkyhand`,
+        poster:ihandLarge,
+        tagline: "",
+        desc: 'Calligraphy is as highly revered as painting. Art of beautiful, stylized, or elegant handwriting or lettering with pen or brush and ink. ',
+        rules:[
+            "It is a Solo Event & Topic will be given on the spot.",
+            "Digital media in painting is not allowed",
+            "Participants will be judged on the basis of creativity, innovation and design.",
+            "The decision of the judges will be considered final."
+            ]        
+        ,
+        venue: "In Front of Library (IFL)",
+        date: "29-04-2023",
+        time: "10:00 PM to 11:00 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: { Tarun: '7900881101' , Swati:'8303751023'},
+        banner:
+            ihand,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/TheInkHand23",
+        day: 1,
+        // winner: [
+        //     { name: 'Ajoy', id: 'Wi1223' },
+        //     { name: 'Shantu', id: 'Wi1223' },
+        //     { name: 'Promi', id: 'Wi1223' },
+        // ]
+    },
+    {
+        event_id: "dbwehjjr342hb234-2342ewe-34284",
+        event_name: "KOI DEEWANA KEHTA HAI",
+        slug: `kdkh`,
+        poster:kdkhLarge,
+        tagline: "",
+        desc: '"Koi Deewana Kehta Hai" is a poetry event that is designed to be performed live in front of an audience. Unlike traditional poetry, it is meant to be experienced through the spoken word rather than being read on a page. Poets who perform use intense emotions and vivid imagery to communicate their message, which may revolve around personal experiences, love, or spirituality. They employ creative techniques like repetition, rhyme, and metaphor to create captivating and unforgettable poems. These performances are often part of poetry competitions, where poets can showcase their skills and connect with others who share their passion for poetry. It provides an exhilarating and expressive outlet for poets to connect with their audience, as they are able to utilize their voice and physicality to create an immersive and unique experience for each listener. ',
+        rules:[
+            "Your poem should be your creation. Plagiarism is not allowed.",
+            "The performance should be for five minutes only, in the last 10 seconds the stage light would turn to red, so that you can complete in the time limit.",
+            "You can use English or Hindi to present your poem.",
+            "Koi Deewana Kehta Hai is all about emotion and expression. Your poem should be delivered with passion and conviction.",
+            "You can deliver your poem by reciting or you can memorize your poem and then deliver.",
+            "Engage the audience by making eye contact and using body language to enhance your performance."
+            ]                    
+        ,
+        venue: "RAMAN SABHAGHAR (RS)",
+        date: "28-04-2023",
+        time: "12:30 PM to 01:30 PM",
+        // prize_pool: 3000,
+        team_size: "1",
+        poc: { PRATEEK : '870728119', Siddharth : '7379412633'},
+        banner:
+            kdkh,
+        approved: true,
+        //disable:true,
+        special: true,
+        registrationLink: "https://tinyurl.com/KoiDeewanaKehtaHai23",
+        day: 0,
         // winner: [
         //     { name: 'Ajoy', id: 'Wi1223' },
         //     { name: 'Shantu', id: 'Wi1223' },
