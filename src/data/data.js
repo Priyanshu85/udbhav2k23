@@ -104,6 +104,7 @@ import tushar from "../assets/Teams/Team/tushar.webp"
 import sukrit from "../assets/Teams/Team/sukrit.webp"
 import aneesh from "../assets/Teams/Team/aneesh.webp"
 import shresth from "../assets/Teams/Team/shresth.webp"
+import shubham from "../assets/Teams/Team/shubhamRajput.webp";
 
 
 
@@ -713,13 +714,14 @@ export const carouselData1 = [
         desc: 'Hey folks! If you want your web page development skills to bluster in college. We have an event for you, so swot up your HTML/CSS knowledge and participate in WEBDEV!',
         rules: [
             "Registration : FREE!",
-            "Platform: STACKBLITZ",
+            "Platform: STACKBLITZ or CODESANDBOX",
             "Time Limit: 50 Minutes",
-            "Participants will be given webpages on the spot and they have to create it within the stipulated time.",
+            "You can only use plane HTML and Vanilla CSS",
+            "Participants will be given UIs on the spot and they have to create it within the stipulated time.",
             "Internet can be used only for reference purposes.",
             "Focus on the design part.",
-            "Participants with minimum lines of code will be given priority and bonus points.",
-            "Functionality of web page such as input box,hover effects, onclicks should be included.",
+            "Participants with minimum lines of code and a responsive design will be given priority and bonus points.",
+            // "Functionality of web page such as input box,hover effects, onclicks should be included.",
             "There will be a bonus question 5 minutes before the completion of the contest.",
             "If any kind of cheating or misbehavior is done by a participant with an organizer it will straight lead to disqualification."
             ],
@@ -727,8 +729,8 @@ export const carouselData1 = [
         date: "28-04-2023",
         time: "01:30 PM to 02:30 PM",
         // prize_pool: 3000,
-        team_size: "2",
-        poc: { TEJAS: "7007265108"},
+        team_size: "1",
+        poc: { TEJAS: "7007265108",PRIYANSHU: "9682976540"},
         banner:
             webdev,
         approved: true,
@@ -1863,4 +1865,12 @@ export const TeamMember = [
 
         'link': 'https://wa.me/+919582735756'
     },
+    {
+        'id': '25',
+        'name': 'Shubham Rajput',
+        'image': shubham,
+        'color': "#9A2D9C",
+
+        'link': 'https://wa.me/+919818877670'
+    }
 ]
