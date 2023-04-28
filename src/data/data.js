@@ -722,7 +722,6 @@ export const carouselData1 = [
             "Focus on the design part.",
             "Participants with minimum lines of code and a responsive design will be given priority and bonus points.",
             // "Functionality of web page such as input box,hover effects, onclicks should be included.",
-            "There will be a bonus question 5 minutes before the completion of the contest.",
             "If any kind of cheating or misbehavior is done by a participant with an organizer it will straight lead to disqualification."
             ],
         venue: "Lab 1,2,3",
